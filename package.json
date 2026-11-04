@@ -1,0 +1,13 @@
+{
+  "name": "burmese-learners-hub",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A responsive learning community website inspired by the supplied design.",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "start": "node scripts/serve.mjs",
+    "build": "node scripts/build.mjs"
+  },
+  "engines": { "node": ">=20" }
+}

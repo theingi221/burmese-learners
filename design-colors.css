@@ -1,0 +1,141 @@
+/* Measured colors and paint gradients from the supplied Figma SVG exports.
+   The tiny vector background assets contain only original gradient fills,
+   not flattened webpage images. Layout remains native HTML and CSS. */
+html[data-theme="dark"] {
+  --bg: #08120a;
+  --surface: rgba(14, 28, 18, .72);
+  --surface-2: #0f2115;
+  --text: #fff;
+  --muted: #94a3b8;
+  --green: #38d669;
+  --green-bright: #34d399;
+  --line: rgba(16, 185, 129, .2);
+  --design-card: rgba(14, 28, 18, .72);
+  --design-copy: #cbd5e1;
+  --design-primary: linear-gradient(90deg, #10b981 0%, #38d669 50%, #34d399 100%);
+  --design-headline: linear-gradient(90deg, #34d399 0%, #38d669 50%, #5eead4 100%);
+  --design-live: linear-gradient(90deg, #10b981, #38d669);
+  --design-panel: linear-gradient(145deg, #102416, #08140c);
+  --design-card-border: rgba(16, 185, 129, .2);
+  --design-body-background: url('assets/reference-background-dark.svg');
+  --design-hero-background: url('assets/reference-hero-dark.svg');
+}
+html[data-theme="light"] {
+  --bg: #f7faf7;
+  --surface: rgba(255, 255, 255, .88);
+  --surface-2: #ecfdf5;
+  --text: #0f172a;
+  --muted: #64748b;
+  --green: #1b7a2b;
+  --green-bright: #059669;
+  --line: rgba(6, 78, 59, .1);
+  --design-card: rgba(255, 255, 255, .88);
+  --design-copy: #475569;
+  --design-primary: linear-gradient(90deg, #0e4b1a 0%, #1b7a2b 50%, #059669 100%);
+  --design-headline: linear-gradient(90deg, #1b7a2b 0%, #059669 50%, #0f766e 100%);
+  --design-live: linear-gradient(90deg, #1b7a2b, #059669);
+  --design-panel: linear-gradient(145deg, #0e1d14, #08130d);
+  --design-card-border: rgba(6, 78, 59, .1);
+  --design-body-background: url('assets/reference-background-light.svg');
+  --design-hero-background: url('assets/reference-hero-light.svg');
+}
+html[data-theme] body {
+  background-color: var(--bg);
+  background-image: var(--design-body-background);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  color: var(--text);
+}
+html[data-theme] :is(.section-tinted, .formats, .courses, .community, .reviews) { background: transparent; }
+html[data-theme] .hero { background: var(--design-hero-background) center / 100% 100% no-repeat; }
+html[data-theme] .hero:before { display: none; }
+html[data-theme] .formats { border-bottom: 1px solid var(--line); }
+html[data-theme="light"] .formats { background: rgba(255, 255, 255, .6); }
+html[data-theme] .hero h1 > span {
+  background-image: var(--design-headline);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+html[data-theme] .hero-description { color: var(--design-copy); }
+html[data-theme="light"] .hero-description { color: #334155; }
+html[data-theme] .hero-description strong { color: var(--green); }
+html[data-theme] :is(.button-primary, .header-actions > .button-primary) {
+  background: var(--design-primary);
+  color: #020617;
+}
+html[data-theme="light"] :is(.button-primary, .header-actions > .button-primary) { color: #fff; }
+html[data-theme] .button-primary:hover { filter: brightness(1.07); }
+html[data-theme] .format-featured .button-primary,
+html[data-theme] .course-filters .active { background: var(--design-live); }
+html[data-theme] .course-filters .active { color: #020617; }
+html[data-theme="light"] .course-filters .active { color: #fff; }
+html[data-theme] .section-heading p { color: var(--muted); }
+html[data-theme] :is(.format-card, .course-card, .community-sidebar, .chat-panel, .channels-panel, .review-card, .revenue-panel, .hero-stats) {
+  background: var(--design-card);
+  border-color: var(--design-card-border);
+  backdrop-filter: blur(16px);
+}
+html[data-theme] :is(.course-body > p, .format-card > p, .review-card > p) { color: var(--design-copy); }
+html[data-theme] :is(.course-instructor small, .course-meta > span:last-child, .course-price > span > small, .review-person small) { color: var(--muted); }
+html[data-theme] .format-featured { background: var(--design-panel); border-color: rgba(56, 214, 105, .4); }
+html[data-theme="light"] .format-featured { background: rgba(236, 253, 245, .3); border-color: rgba(27, 122, 43, .4); }
+html[data-theme] .course-card { --design-course-gradient: linear-gradient(90deg, #10b981 0%, #38d669 50%, #2dd4bf 100%); }
+html[data-theme] .course-card-blue { --design-course-gradient: linear-gradient(90deg, #38bdf8 0%, #3b82f6 50%, #2dd4bf 100%); }
+html[data-theme] .course-card-amber { --design-course-gradient: linear-gradient(90deg, #fbbf24 0%, #f97316 50%, #34d399 100%); }
+html[data-theme="light"] .course-card { --design-course-gradient: linear-gradient(90deg, #10b981 0%, #14b8a6 50%, #16a34a 100%); }
+html[data-theme="light"] .course-card-blue { --design-course-gradient: linear-gradient(90deg, #0ea5e9 0%, #3b82f6 50%, #4f46e5 100%); }
+html[data-theme="light"] .course-card-amber { --design-course-gradient: linear-gradient(90deg, #f59e0b 0%, #f97316 50%, #f43f5e 100%); }
+html[data-theme] .course-image { border-top: 8px solid transparent; border-image: var(--design-course-gradient) 1; }
+html[data-theme] .course-price .button { background: var(--design-live); }
+html[data-theme] .course-card-blue .course-price .button { background: linear-gradient(90deg, #0ea5e9, #0284c7); }
+html[data-theme="light"] .course-card-blue .course-price .button { background: linear-gradient(90deg, #0284c7, #1d4ed8); }
+html[data-theme] .course-card-amber .course-price .button { background: linear-gradient(90deg, #f59e0b, #f97316); }
+html[data-theme="light"] .course-card-amber .course-price .button { background: linear-gradient(90deg, #d97706, #ea580c); }
+html[data-theme] .instructor { background: #061008; }
+html[data-theme="light"] #instructor { background: #08130d; }
+html[data-theme] .instructor-panel { background: var(--design-panel); border-color: rgba(16, 185, 129, .2); }
+html[data-theme] .instructor-copy { color: #fff; }
+html[data-theme] .instructor-copy > p { color: #94a3b8; }
+html[data-theme] .instructor-role { color: #34d399; }
+html[data-theme] .instructor-stats > div { background: rgba(0, 0, 0, .2); border-color: rgba(16, 185, 129, .2); }
+html[data-theme] .instructor-stats > div > span { color: #94a3b8; }
+html[data-theme] #instructor .instructor-copy > .button { background: linear-gradient(90deg, #10b981, #38d669); color: #020617; }
+html[data-theme="light"] #instructor .instructor-copy > .button { background: linear-gradient(90deg, #10b981, #14b8a6); }
+html[data-theme] .learning-window { background: linear-gradient(180deg, #0e1f13 0%, #09150d 50%, #050e08 100%); border-color: rgba(52, 211, 153, .4); }
+html[data-theme="light"] .learning-window { background: linear-gradient(180deg, #0f172a 0%, #020617 50%, #0a150e 100%); }
+html[data-theme] .window-top { background: transparent; }
+html[data-theme] .window-footer { color: rgba(110, 231, 183, .8); }
+html[data-theme] .window-footer strong { color: #cbd5e1; }
+html[data-theme] .chat-header { background: transparent; }
+html[data-theme] .chat-messages { background: #08130b; }
+html[data-theme="light"] .chat-messages { background: rgba(248, 250, 252, .7); }
+html[data-theme] .room.active { background: #14291a; border-color: rgba(56, 214, 105, .3); }
+html[data-theme="light"] .room.active { background: rgba(236, 253, 245, .9); border-color: rgba(27, 122, 43, .3); }
+html[data-theme] .room:not(.active) { background: rgba(15, 31, 20, .6); }
+html[data-theme="light"] .room:not(.active) { background: rgba(255, 255, 255, .7); }
+html[data-theme] .channels { background: linear-gradient(180deg, rgba(13, 28, 17, 0) 0%, rgba(13, 28, 17, .5) 50%, rgba(13, 28, 17, 0) 100%); }
+html[data-theme="light"] .channels { background: linear-gradient(180deg, rgba(209, 250, 229, 0) 0%, rgba(209, 250, 229, .4) 50%, rgba(209, 250, 229, 0) 100%); }
+html[data-theme] .telegram { background: linear-gradient(147.57deg, #0c1f19 0%, #091a1e 50%, #0a202c 100%); border-color: rgba(14, 165, 233, .2); }
+html[data-theme] .viber { background: linear-gradient(147.57deg, #0e1b17 0%, #141525 50%, #1b172a 100%); border-color: rgba(168, 85, 247, .2); }
+html[data-theme="light"] .telegram { background: linear-gradient(147.57deg, #fff 0%, rgba(240, 249, 255, .5) 50%, rgba(224, 242, 254, .3) 100%); }
+html[data-theme="light"] .viber { background: linear-gradient(147.57deg, #fff 0%, rgba(250, 245, 255, .5) 50%, rgba(243, 232, 255, .3) 100%); }
+html[data-theme] .telegram .channel-bottom .button { background: linear-gradient(90deg, #229ed9, #0088cc); color: #fff; }
+html[data-theme] .viber .channel-bottom .button { background: linear-gradient(90deg, #7360f2, #5b47dc); color: #fff; }
+html[data-theme] .teaching { background: linear-gradient(180deg, #08120a 0%, #0d1e12 50%, #08120a 100%); }
+html[data-theme="light"] .teaching { background: linear-gradient(180deg, rgba(236, 253, 245, .5) 0%, #fff 50%, rgba(236, 253, 245, .3) 100%); }
+html[data-theme] .teaching-cta { background: linear-gradient(180deg, #102416, #07130b); border-color: rgba(16, 185, 129, .2); }
+html[data-theme="light"] .teaching-cta { background: linear-gradient(180deg, #0e1d14, #08130d); }
+html[data-theme] #teach .teaching-cta .button-primary { background: var(--design-primary); color: #020617; }
+html[data-theme="light"] #teach .teaching-cta .button-primary { background: linear-gradient(90deg, #10b981, #2dd4bf); }
+html[data-theme] .teaching-cta :is(h3, p) { color: #fff; }
+html[data-theme] .teaching-cta > p { color: #94a3b8; }
+html[data-theme] .revenue-bar > span { background: linear-gradient(90deg, #10b981, #38d669); }
+html[data-theme="light"] .revenue-bar > span { background: linear-gradient(90deg, #1b7a2b, #10b981); }
+html[data-theme] .site-footer { background: #050e07; color: #fff; }
+html[data-theme="light"] .site-footer { background: #08130d; }
+html[data-theme] .site-footer .brand { color: #fff; }
+html[data-theme] .site-footer .brand strong { color: #cbd5e1; }
+@media (forced-colors: active) {
+  html[data-theme] .hero h1 > span { background: none; color: CanvasText; }
+}
