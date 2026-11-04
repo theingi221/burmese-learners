@@ -8,6 +8,8 @@ The selected repository is `theingi221/burmese-learners`. The workflow in `.gith
 
 Current prerequisite: the environment's outbound proxy denies `api.github.com` before an API response is received. Native HTTPS Git reads work; API authentication and administrative Pages permissions are not yet verified. `GH_TOKEN` is already present; no additional credential should be requested until the existing binding has been tested after connectivity is restored. Do not print or extract its value.
 
+A native Git dry-run push was also tested without changing the remote. It returned `403 Permission denied`. The current Git connection cannot publish. This does not establish the permissions of the separate API credential, which still needs testing after the network setting is applied. The website and workflow are committed locally; no remote push or public Pages deployment has occurred.
+
 A network draft preserves prior custom destinations and adds `api.github.com` and `theingi221.github.io`. Saving that draft does not apply or publish it. Apply the network settings through the environment settings workflow before retrying the API operation. Do not route around the proxy denial.
 
 Once API access works:
