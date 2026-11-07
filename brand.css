@@ -18,9 +18,6 @@ html[data-theme="dark"] .auth-dark-logo + .shell-tagline {
   line-height: 13px;
   margin-top: 0;
 }
-@media (max-width: 680px) {
-  html[data-theme="dark"] .auth-dark-logo + .shell-tagline { font-size: 8px; line-height: 11px; }
-}
 @media (max-width: 365px) {
   html[data-theme="dark"] .auth-dark-logo + .shell-tagline { font-size: 7px; line-height: 10px; }
 }
