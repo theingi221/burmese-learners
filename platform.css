@@ -1,0 +1,29 @@
+/* Shared primitives for the learning, checkout and community screens. */
+body.platform-page{background:var(--page-bg);color:var(--ink)}
+.platform-container{width:min(1216px,calc(100% - 64px));margin-inline:auto}
+.platform-page main{min-height:65vh}
+.p-card{background:var(--surface);border:1px solid var(--border);border-radius:24px;box-shadow:0 5px 22px var(--shadow-color,#153a2206)}
+.p-button{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:11px 20px;border:1px solid transparent;border-radius:13px;background:var(--green);color:#fff;font-size:14px;font-weight:650;line-height:22px;text-align:center;cursor:pointer;text-decoration:none;transition:transform .15s,filter .15s}
+.p-button:hover{filter:brightness(1.06);transform:translateY(-1px)}
+.p-button.secondary,.p-button.p-secondary{background:var(--surface);color:var(--ink);border-color:var(--border)}
+.p-button.ghost{background:var(--soft-green);color:var(--green-strong);border-color:var(--border)}
+.p-eyebrow{display:inline-flex;align-items:center;gap:7px;padding:5px 10px;border:1px solid var(--green-border);border-radius:18px;background:var(--soft-green);color:var(--green-strong);font-size:12px;font-weight:650;line-height:19px}
+.p-muted{color:var(--muted)}
+.p-breadcrumb{display:flex;align-items:center;flex-wrap:wrap;gap:8px;font-size:12px;line-height:22px;color:var(--muted);margin:0 0 22px}
+.p-breadcrumb a:hover{color:var(--green-strong);text-decoration:underline}
+.p-title{font-size:clamp(28px,3.2vw,44px);line-height:1.15;letter-spacing:-1.4px;font-weight:750}
+.p-description{font-size:15px;line-height:26px;color:var(--muted)}
+.p-field{display:grid;gap:6px}.p-field input,.p-field select,.p-field textarea{width:100%;min-width:0;min-height:44px;padding:11px 13px;color:var(--ink);background:var(--surface);border:1px solid var(--border);border-radius:10px;font:inherit}.p-field textarea{min-height:120px;resize:vertical}
+.p-note{padding:12px 15px;background:var(--soft-green);border:1px solid var(--green-border);border-radius:12px;color:var(--green-strong);font-size:12px;line-height:21px}
+.p-notice{padding:12px 15px;background:var(--surface-soft);border:1px solid var(--border);border-radius:12px;color:var(--muted);font-size:12px;line-height:21px}
+.p-section{padding:72px 0}.p-section h2{font-size:30px;line-height:1.25;letter-spacing:-1px;margin:0 0 12px}
+.p-tabs{display:flex;align-items:center;gap:5px;border-bottom:1px solid var(--border)}
+.p-tabs button{background:none;color:var(--muted);padding:12px 17px;font-weight:600;border-bottom:2px solid transparent}
+.p-tabs button[aria-selected=true],.p-tabs button.is-active{color:var(--green-strong);border-color:var(--green)}
+.p-empty{text-align:center;border:1px dashed var(--border);padding:38px 20px;border-radius:18px;color:var(--muted)}
+.p-dialog{width:min(520px,calc(100% - 32px));max-height:88dvh;overflow-y:auto;background:var(--surface);color:var(--ink);border:1px solid var(--border);border-radius:20px;padding:30px;box-shadow:0 20px 80px #0005}.p-dialog::backdrop{background:#03110b99;backdrop-filter:blur(4px)}
+.p-progress{height:7px;border-radius:6px;background:var(--border);overflow:hidden}.p-progress>span{display:block;height:100%;background:linear-gradient(90deg,var(--green-strong),var(--green));border-radius:inherit}
+[data-language=my] .p-title{line-height:1.5;letter-spacing:-.5px}[data-language=my] .p-button{font-size:13px;line-height:23px}
+@media(max-width:900px){.platform-container{width:calc(100% - 40px)}.p-section{padding:54px 0}.p-title{font-size:32px}.p-description{font-size:14px;line-height:25px}.p-section h2{font-size:27px}.p-card{border-radius:20px}}
+@media(max-width:680px){.platform-container{width:calc(100% - 32px)}.p-section{padding:42px 0}.p-title{font-size:29px;letter-spacing:-1px}.p-description{font-size:14px;line-height:25px}.p-button{font-size:13px;min-height:43px;padding:10px 15px}.p-tabs{overflow-x:auto;scrollbar-width:thin}.p-tabs button{white-space:nowrap;padding:11px 13px;font-size:12px}.p-dialog{padding:25px 21px}.p-eyebrow{font-size:11px}.p-section h2{font-size:25px}}
+@media(prefers-reduced-motion:reduce){.p-button{transition:none}}

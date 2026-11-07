@@ -1,6 +1,6 @@
 # Burmese Learners Hub
 
-A responsive, self-contained website based on the supplied Burma Learners UI references. Plain HTML, CSS and JavaScript; Node.js 20+ runs the development server and static build. No dependency installation or credentials are needed.
+A responsive learning website built from the supplied Burma Learners UI exports. All pages support English / Burmese and Light / Dark appearance. Preferences persist across navigation, reloads, and tabs. Plain HTML, CSS and JavaScript; Node.js 20+ runs the development server and static build. No package installation or credentials are needed to run it.
 
 Live website: https://theingi221.github.io/burmese-learners/
 
@@ -8,60 +8,56 @@ Live website: https://theingi221.github.io/burmese-learners/
 
 ## Pages
 
-- `index.html`: the new Splash screen from `Burma Learners.zip`.
-- `auth.html`: Sign In / Create Free Account, with phone OTP and email tabs.
-- `courses.html`: the previously built course catalog, community and instructor page, including its Light/Dark switch.
+| File | Screen |
+| --- | --- |
+| `index.html` | Welcome / Splash |
+| `auth.html` | Sign In / Create Account |
+| `home.html` | Full learning platform homepage |
+| `catalog.html` | Searchable course catalog with filters |
+| `course.html?course=react` | Course details, projects and curriculum |
+| `lesson.html?course=react` | Lesson workspace, syllabus and progress |
+| `assignment.html?course=react` | Assignment workspace and saved draft |
+| `payment.html?course=react` | Clearly labeled demo checkout |
+| `confirmed.html?course=react` | Demo enrollment summary and next steps |
+| `community.html` | Mentor sessions, study groups and discussion previews |
 
-The new screens use the original logo and hero illustration cropped losslessly from the supplied PNG. Inter and Noto Sans Myanmar are bundled locally. At the reference's 1280px desktop width, the shared header is 104px, the main area is 786px, and the footer is 134px. Smaller widths reflow into readable layouts rather than shrinking the screenshots.
+`courses.html` redirects the previous public homepage address to `home.html`. Supported course IDs are `react`, `figma`, `marketing`, `flutter`, `python`, and `cloud`. The supplied lesson and assignment screens contain a React sample; other course links clearly identify that shared preview. Syllabus outlines are distinct from available lessons.
 
-## Run
+## Run and build
 
 ```sh
-cd /workspace/burmese-learners
 npm run dev
 ```
 
-The server listens on port 3000 on all interfaces. Set `PORT` or `HOST` if needed. A local address alone is not a publicly accessible preview URL; use a hosting provider or a supported environment port-sharing feature to share the site.
-
-You can also open `index.html` directly in a modern browser for an offline preview. Local form/progress persistence depends on the browser's storage policy for local files; the development server is recommended for consistent persistence.
-
-## Build and serve the production files
+The development server listens on port 3000. Set `HOST=127.0.0.1` for local-only access, or set `PORT` as needed. To build and serve the production files:
 
 ```sh
 npm run build
-SERVE_DIR=dist PORT=3000 npm start
+SERVE_DIR=dist HOST=127.0.0.1 PORT=3000 npm start
 ```
 
-Deploy the generated `dist/` directory to any static website host. No server-side routes are required.
+The build checks browser JavaScript syntax and local asset references, then copies the public website into `dist/`. Deploy that directory to a static website host. All page links are relative, including GitHub Pages project-path navigation. See [DEPLOYMENT.md](DEPLOYMENT.md) for publication details.
 
-For the prepared GitHub Pages workflow, current deployment prerequisites, and the hosting-ready ZIP, see [DEPLOYMENT.md](DEPLOYMENT.md). A public website deployment is separate from publishing the cloud environment.
+You can also open `index.html` directly in a modern browser for an offline preview. Browser storage policies for local files differ; the development server provides consistent preference and demo-state persistence.
 
-## Included interactions
+## Interactions and limits
 
-- Responsive mobile navigation and anchored section links.
-- Splash-to-account navigation, notification popover, and footer information dialogs.
-- Sign In / Create Account and phone / email tabs, including keyboard navigation.
-- Device-only OTP demonstration: request a code, enter the visibly disclosed `123456`, resend after 45 seconds, and reject codes after five minutes or a phone-number change. No SMS is sent.
-- Email form validation, password visibility, confirmation matching, and session-only or remembered demo profiles. Passwords and OTPs are never stored.
-- Light and dark themes, with a header toggle and a saved device preference. First visits follow the system appearance; an explicit choice persists across reloads and tabs. Instructor and footer sections retain their dark emerald treatment in light mode, matching the reference.
-- Course category filters.
-- Three introductory text lessons per specialization with device-local progress.
-- Enrollment, mentor inquiries, instructor interest, and a local demo profile.
-- Switchable study rooms and local-only demo messages.
-- Accessible native dialogs, keyboard focus, reduced-motion preferences, and form validation.
+- Shared responsive navigation, appearance and language controls, translated dialogs and local fonts.
+- Course search, specialization filters, curriculum expansion and course-specific navigation.
+- Local lesson progress, study notes, assignment drafts and filename previews.
+- Local study-room membership, messages, group creation, reminders and helpful votes.
+- Demo checkout validation, local demo enrollment and downloadable summary.
+- Phone OTP demonstration using the visibly disclosed `123456`, 45-second resend delay and five-minute expiry. No SMS is sent.
+- Email form validation, password visibility and session-only or remembered demo profiles. Passwords and OTPs are never stored.
 
-This is a frontend concept, not a connected learning platform. Forms and study messages stay on the current device. No accounts are authenticated, payments processed, inquiries delivered, or real community messages sent. Community links open informational demo dialogs until the owner supplies actual destinations. Statistics, learner stories, course prices and instructor details illustrate the reference design and should be replaced with verified content before commercial use.
+This is a frontend demonstration. Authentication, payment verification, video delivery, instructor submissions and shared community services require a backend. Checkout prominently identifies itself as a demo and asks visitors not to transfer money. Messages, progress and form state stay in the current browser. Uploaded files are not delivered; demo forms retain filenames only. Course prices, statistics and instructor details illustrate the reference.
 
-## Assets
+## Design and assets
 
-All fonts and images are local, so runtime use does not require third-party requests. Inter is by Rasmus Andersson, licensed under the SIL Open Font License (see `assets/Inter-LICENSE.txt`). Noto Sans Myanmar is bundled with its OFL notice in `assets/NotoSansMyanmar-LICENSE.txt`. The new `assets/burma-*.webp` files are pixel-identical crops from the supplied Splash PNG. The five `assets/reference-*.webp` photos are lossless extractions of the embedded JPEG pixels in the earlier Figma exports. The four small `assets/reference-*.svg` backgrounds contain the original vector gradient and glow definitions, not flattened screenshots of the interface.
+The latest `Burma Learners Hub.zip` supplies English and Burmese homepage variants, course catalog, course details, lesson, assignment, payment, confirmation and community desktop frames. The site uses semantic HTML and CSS with extracted photographs and illustrations, rather than flattening a whole screen into an image. The homepage retains the supplied emerald gradients and dark instructor/footer sections in light mode. Mobile layouts adapt the desktop designs to readable stacked content.
 
-## Design reference
+`assets/platform/` contains deduplicated media extracted from the latest supplied exports; `asset-manifest.json` records their provenance. The earlier `assets/burma-*.webp` files contain the supplied Splash logo and illustration. `assets/reference-*.webp` and small vector gradient backgrounds support the homepage.
 
-Reference: [Burmese Learners in Figma](https://www.figma.com/design/tsf0KDglyOc51CFvV5YE9B/Burmese-Learners?node-id=0-1).
+Inter and Noto Sans Myanmar are bundled locally with their SIL Open Font License notices. Runtime pages require no external image or font requests. Original private uploads and rendered design comparisons remain in ignored `.local/` and are excluded from the public site and download bundle.
 
-The latest `Burma Learners.zip` supplies Splash and Sign Up PNGs, implemented in `index.html` / `auth.html` with shared `ui.css` / `components.js` and scoped `auth.css` / `auth.js`. It includes only desktop screens, so mobile layouts are responsive adaptations. The source image's account/security wording is represented as an explicit UI preview because no authentication backend or SMS service is connected.
-
-The earlier `Burmese Learners.zip` and `Burmese Learners (1).zip` contain the original Light and Dark course-page SVG frames, now preserved in `courses.html`. That page uses their embedded photos, exact gradient stops, native 1280px frame width, 32px gutters, 1216px content width, 99px header, 833px hero, and 28px card radii. `design-colors.css` contains its exported palette; `design-layout.css` recreates its measured desktop geometry. The website remains semantic HTML with functional controls, rather than a single image of either design.
-
-Direct Figma access was blocked by the environment's outbound policy, but the uploaded exports now supply the required reference locally. No additional network change or Figma credential is needed to run or inspect this version. The original SVGs and locally rendered comparison images remain in ignored `.local/design-reference/`; they are not served publicly or included in the distributable website. Only desktop frames were supplied, so mobile layouts are responsive adaptations. The requested theme toggle and device-only demo notices are functional additions to the source design.
+Original design: [Burmese Learners in Figma](https://www.figma.com/design/tsf0KDglyOc51CFvV5YE9B/Burmese-Learners?node-id=0-1).

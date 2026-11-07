@@ -1,0 +1,92 @@
+/* Home uses the dimensions and gradient fills from the uploaded home frames. */
+html[data-theme="light"] .home-page {
+  --bg: #f7faf7;
+  --text: #0f172a;
+  --green: #46a237;
+  --green-bright: #059669;
+  --line: rgba(6,78,59,.1);
+  --design-primary: linear-gradient(90deg, #46a237, #059669);
+  --design-live: linear-gradient(90deg, #46a237, #059669);
+  --design-headline: linear-gradient(90deg, #46a237, #46a237);
+}
+html[data-theme="dark"] .home-page {
+  --bg: #08120a;
+  --text: #fff;
+  --green: #38d669;
+  --green-bright: #34d399;
+  --line: rgba(16,185,129,.2);
+  --design-primary: linear-gradient(90deg, #10b981, #38d669 50%, #34d399);
+  --design-live: linear-gradient(90deg, #10b981, #38d669);
+  --design-headline: linear-gradient(90deg, #34d399, #38d669 50%, #5eead4);
+}
+.home-page {
+  background-color: var(--bg);
+  background-image: var(--design-body-background);
+  background-size: 100% 100%;
+  color: var(--text);
+  font-family: Inter, "Noto Sans Myanmar", sans-serif;
+}
+.home-page #main { overflow: clip; }
+.home-page .hero h1 { margin: 0; }
+.home-page .hero h1 > span { background-image: var(--design-headline); }
+.home-page :is(.button-primary,.course-filters .active) { background: var(--design-primary); }
+.home-page .button { white-space: normal; }
+.home-page .hero-buttons .button { text-align: center; }
+.home-page .play-button { padding: 0; }
+.home-page .course-body h3 a:hover { color: var(--green); }
+.home-page .course-card { display: flex; flex-direction: column; }
+.home-page .course-body { display: flex; flex-direction: column; }
+.home-page .course-price { margin-top: auto; }
+.home-page .course-instructor { margin-top: 20px; }
+.home-page .room { display: block; text-align: left; }
+.home-page a.create-group { display: flex; justify-content: center; align-items: center; }
+.home-page .chat-message[data-local-message] p { overflow-wrap: anywhere; }
+.home-page #site-header { background-image: none; }
+.home-page #site-footer { background-image: none; }
+html[data-language="my"] .home-page { line-height: 1.8; }
+html[data-language="my"] .home-page .hero h1 { font-size: 48px; line-height: 1.45; letter-spacing: -1px; }
+html[data-language="my"] .home-page :is(.section-heading h2,.section-heading.centered h2) { font-size: 30px; line-height: 1.6; letter-spacing: -.7px; }
+html[data-language="my"] .home-page .hero-grid { min-height: 900px; }
+html[data-language="my"] .home-page .announcement { height: auto; line-height: 1.8; font-size: 13px; }
+html[data-language="my"] .home-page .hero-buttons .button { font-size: 14px; }
+html[data-language="my"] .home-page .format-card h3 { font-size: 20px; line-height: 1.7; }
+html[data-language="my"] .home-page :is(.format-card>p,.check-list,.course-body>p,.review-card>p) { line-height: 1.9; }
+html[data-language="my"] .home-page :is(.format-card,.course-card,.review-card) { min-height: 0; }
+html[data-language="my"] .home-page .format-card .button { margin-top: 28px; }
+html[data-language="my"] .home-page .course-body h3 { line-height: 1.7; }
+html[data-language="my"] .home-page .course-meta { flex-wrap: wrap; }
+html[data-language="my"] .home-page .course-meta>span:last-child { font-size: 13px; }
+html[data-language="my"] .home-page .category-tag { max-width: none; font-size: 12px; }
+html[data-language="my"] .home-page .course-instructor>span:nth-child(2) { font-size: 13px; }
+html[data-language="my"] .home-page .course-instructor small { font-size: 10px; }
+html[data-language="my"] .home-page .course-price strong { font-size: 22px; }
+html[data-language="my"] .home-page .course-price strong span { font-size: 16px; }
+html[data-language="my"] .home-page .course-price .button { font-size: 12px; }
+html[data-language="my"] .home-page :is(.instructor-copy>p,.chat-message p,.pinned-message p>span,.pinned-message strong) { line-height: 1.9; }
+html[data-language="my"] .home-page .instructor-role { line-height: 1.8; }
+html[data-language="my"] .home-page .chat-header small { font-size: 12px; }
+html[data-language="my"] .home-page .room>span:first-child { white-space: normal; line-height: 1.8; }
+html[data-language="my"] .home-page .room small { font-size: 12px; }
+html[data-language="my"] .home-page .review-person { flex-wrap: wrap; }
+html[data-language="my"] .home-page .review-result { margin-left: auto; font-size: 12px; }
+html[data-language="my"] .home-page .revenue-numbers :is(small,strong) { font-size: 16px; line-height: 1.8; }
+html[data-language="my"] .home-page .revenue-calculation h3 { font-size: 17px; line-height: 1.8; }
+html[data-language="my"] .home-page .revenue-legend { line-height: 1.8; font-size: 11px; }
+html[data-language="my"] .home-page .teaching-cta .check-list { font-size: 14px; }
+@media(max-width:900px) {
+  html[data-language="my"] .home-page .hero h1 { font-size: 34px; }
+  html[data-language="my"] .home-page .hero-grid { min-height: 0; }
+  html[data-language="my"] .home-page :is(.section-heading h2,.section-heading.centered h2) { font-size: 27px; }
+  html[data-language="my"] .home-page .format-card h3 { font-size: 17px; }
+}
+@media(max-width:680px) {
+  html[data-language="my"] .home-page .hero h1 { font-size: 36px; }
+  html[data-language="my"] .home-page .hero-buttons .button { font-size: 12px; }
+  html[data-language="my"] .home-page .hero-stats>div>span { font-size: 10px; }
+  html[data-language="my"] .home-page .format-card h3 { font-size: 20px; }
+  html[data-language="my"] .home-page .announcement { font-size: 10px; }
+  html[data-language="my"] .home-page .room>span:first-child { font-size: 9px; }
+  html[data-language="my"] .home-page .room small { font-size: 8px; }
+}
+
+.home-page .learning-window { box-shadow: none; }

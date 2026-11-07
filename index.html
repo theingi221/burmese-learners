@@ -6,23 +6,25 @@
   <meta name="theme-color" content="#f6faf7">
   <meta name="description" content="Burma Learners Hub — continuous learning anywhere. Coding, design, marketing and business English for Myanmar.">
   <title>Burma Learners Hub — Continuous Learning Anywhere</title>
+  <script src="preferences.js"></script>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="preload" href="assets/inter.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="assets/NotoSansMyanmar-Regular.ttf" as="font" type="font/ttf" crossorigin>
   <link rel="stylesheet" href="ui.css">
+  <link rel="stylesheet" href="themes.css">
   <script src="components.js" defer></script>
 </head>
-<body class="splash-page">
-  <a class="skip-link" href="#main">Skip to content</a>
+<body class="splash-page" data-title-en="Burma Learners Hub — Continuous Learning Anywhere" data-title-my="Burma Learners Hub — ဘယ်နေရာမဆို ဆက်လက်လေ့လာပါ">
+  <a class="skip-link" href="#main" data-en="Skip to content" data-my="အဓိကအကြောင်းအရာသို့">Skip to content</a>
   <header id="site-header"></header>
   <main id="main" class="splash-main">
     <div class="site-container splash-grid">
       <section class="splash-copy" aria-labelledby="splash-title">
-        <div class="learning-badge"><span class="badge-dot"></span><strong>CONTINUOUS LEARNING ANYWHERE</strong><span class="badge-separator" aria-hidden="true">•</span><span lang="my">ဘယ်နေရာရောက်ရောက် ပညာရေးနဲ့ မပြတ်စေဖို့</span></div>
-        <h1 id="splash-title">Empowering <span>Myanmar</span><br>Minds with Tech.</h1>
-        <p class="splash-subtitle" lang="my">ဘယ်နေရာရောက်ရောက်၊ အင်တာနက် သို့မဟုတ် မီးအခက်အခဲရှိနေချိန်မှာတောင် ပညာရေးနဲ့ အဆက်မပြတ်စေမည့် မြန်မာ့ပညာရေး ပလက်ဖောင်း</p>
-        <p class="splash-description" lang="my">လူငယ်တွေ ဘယ်နေရာရောက်ရောက် ပညာရေးနဲ့ အဆက်မပြတ်စေဖို့ တည်ဆောက်ထားသော <span lang="en">All-in-One Platform။ Coding၊ UI/UX၊ Marketing</span> နှင့် <span lang="en">Business English</span> ဘာသာရပ်များကို မီးပြတ်ချိန်နှင့် လိုင်းကျချိန်များတွင်ပါ လွယ်ကူစွာ အော့ဖ်လိုင်း ဆက်လက် လေ့လာနိုင်ပါသည်။</p>
-        <div class="splash-actions"><a class="button button-green" href="auth.html?tab=create">Get Started Free <svg aria-hidden="true"><use href="#ui-arrow"/></svg></a><a class="button button-white" href="courses.html#courses"><svg aria-hidden="true"><use href="#ui-catalog"/></svg> Explore Course Catalog</a></div>
+        <div class="learning-badge"><span class="badge-dot"></span><strong data-en="CONTINUOUS LEARNING ANYWHERE" data-my="ဘယ်နေရာမဆို ဆက်လက်သင်ယူပါ">CONTINUOUS LEARNING ANYWHERE</strong><span class="badge-separator" aria-hidden="true">•</span><span data-en="Keep learning wherever life takes you" data-my="ဘယ်နေရာရောက်ရောက် ပညာရေးနဲ့ မပြတ်စေဖို့">Keep learning wherever life takes you</span></div>
+        <h1 id="splash-title"><span style="color:inherit" data-en="Empowering" data-my="စွမ်းရည်မြှင့်တင်မည့်">Empowering</span> <span data-en="Myanmar" data-my="မြန်မာလူငယ်များ">Myanmar</span><br><span style="color:inherit" data-en="Minds with Tech." data-my="နည်းပညာပညာရေး။">Minds with Tech.</span></h1>
+        <p class="splash-subtitle" data-en="A learning platform for Myanmar that helps you keep learning wherever you are, even when internet or electricity is unreliable." data-my="ဘယ်နေရာရောက်ရောက်၊ အင်တာနက် သို့မဟုတ် မီးအခက်အခဲရှိနေချိန်မှာတောင် ပညာရေးနဲ့ အဆက်မပြတ်စေမည့် မြန်မာ့ပညာရေး ပလက်ဖောင်း">A learning platform for Myanmar that helps you keep learning wherever you are, even when internet or electricity is unreliable.</p>
+        <p class="splash-description" data-en="Explore coding, UI/UX, marketing and business English in one place. Our learning platform is designed to help young people continue building skills through downloadable resources and flexible lessons." data-my="လူငယ်တွေ ဘယ်နေရာရောက်ရောက် ပညာရေးနဲ့ အဆက်မပြတ်စေဖို့ တည်ဆောက်ထားသော All-in-One Platform။ Coding၊ UI/UX၊ Marketing နှင့် Business English ဘာသာရပ်များကို ဒေါင်းလုဒ်ရယူနိုင်သော အရင်းအမြစ်များ၊ အဆင်ပြေသည့် သင်ခန်းစာပုံစံများနှင့် ဆက်လက်လေ့လာနိုင်ပါသည်။">Explore coding, UI/UX, marketing and business English in one place. Our learning platform is designed to help young people continue building skills through downloadable resources and flexible lessons.</p>
+        <div class="splash-actions"><a class="button button-green" href="auth.html?tab=create"><span data-en="Get Started Free" data-my="အခမဲ့ စတင်လေ့လာရန်">Get Started Free</span> <svg aria-hidden="true"><use href="#ui-arrow"/></svg></a><a class="button button-white" href="catalog.html"><svg aria-hidden="true"><use href="#ui-catalog"/></svg> <span data-en="Explore Course Catalog" data-my="သင်တန်းများ ကြည့်ရှုရန်">Explore Course Catalog</span></a></div>
       </section>
       <div class="splash-art"><img src="assets/burma-hero.webp" alt="Burma Learners Hub illustration: a glowing book, technology dashboards, and a learner reaching toward new skills" width="588" height="588" fetchpriority="high"></div>
     </div>

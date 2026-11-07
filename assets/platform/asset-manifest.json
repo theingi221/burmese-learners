@@ -1,0 +1,2137 @@
+{
+  "pages": {
+    "home-en-light": [
+      {
+        "id": "image0_2_1786",
+        "file": "assets/reference-hero.webp",
+        "width": 512,
+        "height": 279,
+        "usages": [
+          {
+            "pattern_id": "pattern0_2_1786",
+            "image_transform": "matrix(0.00200868 0 0 0.00358423 -0.0142231 0)",
+            "shapes": [
+              {
+                "tag": "rect",
+                "attrs": {
+                  "width": "426.667",
+                  "height": "239.11",
+                  "transform": "translate(807.333 393.445)",
+                  "fill": "url(#pattern0_2_1786)"
+                }
+              }
+            ]
+          }
+        ],
+        "description": "Home lecture hero image"
+      },
+      {
+        "id": "image1_2_1786",
+        "file": "assets/reference-web.webp",
+        "width": 512,
+        "height": 279,
+        "usages": [
+          {
+            "pattern_id": "pattern1_2_1786",
+            "image_transform": "matrix(0.00201618 0 0 0.00358423 -0.016141 0)",
+            "shapes": [
+              {
+                "tag": "rect",
+                "attrs": {
+                  "width": "382",
+                  "height": "214.88",
+                  "transform": "translate(45 2103)",
+                  "fill": "url(#pattern1_2_1786)"
+                }
+              }
+            ]
+          }
+        ],
+        "description": "Home full-stack web course thumbnail"
+      },
+      {
+        "id": "image2_2_1786",
+        "file": "assets/reference-design.webp",
+        "width": 512,
+        "height": 279,
+        "usages": [
+          {
+            "pattern_id": "pattern2_2_1786",
+            "image_transform": "matrix(0.00201618 0 0 0.00358423 -0.016141 0)",
+            "shapes": [
+              {
+                "tag": "rect",
+                "attrs": {
+                  "width": "382",
+                  "height": "214.88",
+                  "transform": "translate(461 2103)",
+                  "fill": "url(#pattern2_2_1786)"
+                }
+              }
+            ]
+          }
+        ],
+        "description": "Home UI/UX design course thumbnail"
+      },
+      {
+        "id": "image3_2_1786",
+        "file": "assets/reference-marketing.webp",
+        "width": 512,
+        "height": 279,
+        "usages": [
+          {
+            "pattern_id": "pattern3_2_1786",
+            "image_transform": "matrix(0.00201618 0 0 0.00358423 -0.016141 0)",
+            "shapes": [
+              {
+                "tag": "rect",
+                "attrs": {
+                  "width": "382",
+                  "height": "214.88",
+                  "transform": "translate(877 2103)",
+                  "fill": "url(#pattern3_2_1786)"
+                }
+              }
+            ]
+          }
+        ],
+        "description": "Home marketing course thumbnail"
+      },
+      {
+        "id": "image4_2_1786",
+        "file": "assets/reference-instructor.webp",
+        "width": 512,
+        "height": 279,
+        "usages": [
+          {
+            "pattern_id": "pattern4_2_1786",
+            "image_transform": "matrix(0.0020062 0 0 0.00358423 -0.0135881 0)",
+            "shapes": [
+              {
+                "tag": "rect",
+                "attrs": {
+                  "width": "631.5",
+                  "height": "353.47",
+                  "transform": "translate(95 2994.9)",
+                  "fill": "url(#pattern4_2_1786)"
+                }
+              }
+            ]
+          }
+        ],
+        "description": "Featured lead instructor lecture photograph"
+      },
+      {
+        "id": "image5_2_1786",
+        "file": "assets/platform/asset-a2b49727ab1498ea.png",
+        "width": 2172,
+        "height": 724,
+        "usages": [
+          {
+            "pattern_id": "pattern5_2_1786",
+            "image_transform": "matrix(0.000480423 0 0 0.00138122 -0.0434783 0)",
+            "shapes": [
+              {
+                "tag": "rect",
+                "attrs": {
+                  "x": "44",
+                  "y": "20",
+                  "width": "144",
+                  "height": "50",
+                  "fill": "url(#pattern5_2_1786)"
+                }
+              }
+            ]
+          }
+        ],
+        "description": "Transparent Burma Learners Hub header logo"
+      }
+    ],
+    "assignment": [
+      {
+        "id": "image0_47_7972",
+        "file": "assets/platform/asset-1fb948814185954b.png",
+        "width": 160,
+        "height": 160,
+        "usages": [
+          {
+            "direct_use": {
+              "{http://www.w3.org/1999/xlink}href": "#image0_47_7972",
+              "transform": "translate(49.0002 121.34) scale(0.075)"
+            }
+          }
+        ],
+        "description": "Low-bandwidth adaptive stream lightning icon"
+      },
+      {
+        "id": "image1_47_7972",
+        "file": "assets/platform/asset-62b02b353ec15e8e.jpg",
+        "width": 401,
+        "height": 224,
+        "usages": [
+          {
+            "pattern_id": "pattern0_47_7972",
+            "image_transform": "matrix(0.00290703 0 0 0.00446429 -0.082859 0)",
+            "shapes": [
+              {
+                "tag": "rect",
+                "attrs": {
+                  "width": "172",
+                  "height": "112",
+                  "transform": "translate(640.33 447.36)",
+                  "fill": "url(#pattern0_47_7972)"
+                }
+              }
+            ]
+          }
+        ],
+        "description": "Lesson and assignment instructor picture-in-picture"
+      },
+      {
+        "id": "image2_47_7972",
+        "file": "assets/platform/asset-49834627bb49bb66.jpg",
+        "width": 48,
+        "height": 48,
+        "usages": [
+          {
+            "pattern_id": "pattern1_47_7972",
+            "image_transform": "scale(0.0208333)",
+            "shapes": [
+              {
+                "tag": "rect",
+                "attrs": {
+                  "x": "47",
+                  "y": "791.375",
+                  "width": "24",
+                  "height": "24",
+                  "rx": "12",
+                  "fill": "url(#pattern1_47_7972)"
+                }
+              }
+            ]
+          }
+        ],
+        "description": "Lesson and assignment instructor avatar"
+      },
+      {
+        "id": "image3_47_7972",
+        "file": "assets/platform/asset-f3b8f53fe1d7ddf9.jpg",
+        "width": 64,
+        "height": 64,
+        "usages": [
+          {
+            "pattern_id": "pattern2_47_7972",
+            "image_transform": "scale(0.015625)",
+            "shapes": [
+              {
+                "tag": "rect",
+                "attrs": {
+                  "x": "880.334",
+                  "y": "891",
+                  "width": "32",
+                  "height": "32",
+                  "rx": "16",
+                  "fill": "url(#pattern2_47_7972)",
+                  "shape-rendering": "crispEdges"
+                }
+              }
+            ]
+          }
+        ],
+        "description": "Batch peer avatar 1"
+      },
+      {
+        "id": "image4_47_7972",
+        "file": "assets/platform/asset-c3133bff2466bdcb.jpg",
+        "width": 64,
+        "height": 64,
+        "usages": [
+          {
+            "pattern_id": "pattern3_47_7972",
+            "image_transform": "scale(0.015625)",
+            "shapes": [
+              {
+                "tag": "rect",
+                "attrs": {
+                  "x": "904.334",
+                  "y": "891",
+                  "width": "32",
+                  "height": "32",
+                  "rx": "16",
+                  "fill": "url(#pattern3_47_7972)",
+                  "shape-rendering": "crispEdges"
+                }
+              }
+            ]
+          }
+        ],
+        "description": "Batch peer avatar 2"
+      },
+      {
+        "id": "image5_47_7972",
+        "file": "assets/platform/asset-93f7ae813f026a13.jpg",
+        "width": 64,
+        "height": 64,
+        "usages": [
+          {
+            "pattern_id": "pattern4_47_7972",
+            "image_transform": "scale(0.015625)",
+            "shapes": [
+              {
+                "tag": "rect",
+                "attrs": {
+                  "x": "928.334",
+                  "y": "891",
+                  "width": "32",
+                  "height": "32",
+                  "rx": "16",
+                  "fill": "url(#pattern4_47_7972)",
+                  "shape-rendering": "crispEdges"
+                }
+              }
+            ]
+          }
+        ],
+        "description": "Batch peer avatar 3"
+      },
+      {
+        "id": "image6_47_7972",
+        "file": "assets/platform/asset-16e80218a56b2004.jpg",
+        "width": 64,
+        "height": 64,
+        "usages": [
+          {
+            "pattern_id": "pattern5_47_7972",
+            "image_transform": "scale(0.015625)",
+            "shapes": [
+              {
+                "tag": "rect",
+                "attrs": {
+                  "x": "952.334",
+                  "y": "891",
+                  "width": "32",
+                  "height": "32",
+                  "rx": "16",
+                  "fill": "url(#pattern5_47_7972)",
+                  "shape-rendering": "crispEdges"
+                }
+              }
+            ]
+          }
+        ],
+        "description": "Batch peer avatar 4"
+      },
+      {
+        "id": "image7_47_7972",
+        "file": "assets/platform/asset-4c9f0718bf6d4859.jpg",
+        "width": 72,
+        "height": 129,
+        "usages": [
+          {
+            "pattern_id": "pattern6_47_7972",
+            "image_transform": "matrix(0.0138889 0 0 0.0138776 0 -0.395105)",
+            "shapes": [
+              {
+                "tag": "rect",
+                "attrs": {
+                  "x": "1082.72",
+                  "y": "23",
+                  "width": "36",
+                  "height": "36",
+                  "rx": "18",
+                  "fill": "url(#pattern6_47_7972)",
+                  "shape-rendering": "crispEdges"
+                }
+              }
+            ]
+          }
+        ],
+        "description": "Assignment student header avatar"
+      }
+    ],
+    "confirmed": [
+      {
+        "id": "image0_45_5723",
+        "file": "assets/platform/asset-a29a561456efe0c6.png",
+        "width": 160,
+        "height": 160,
+        "usages": [
+          {
+            "direct_use": {
+              "{http://www.w3.org/1999/xlink}href": "#image0_45_5723",
+              "transform": "matrix(0.15 0 0 0.15 690.665 197.68)"
+            }
+          },
+          {
+            "direct_use": {
+              "{http://www.w3.org/1999/xlink}href": "#image0_45_5723",
+              "transform": "matrix(0.25 0 0 0.25 942.491 368.8)"
+            }
+          }
+        ],
+        "description": "Enrollment confirmation celebration icon"
+      },
+      {
+        "id": "image1_45_5723",
+        "file": "assets/platform/asset-94a2af249a315700.jpg",
+        "width": 88,
+        "height": 88,
+        "usages": [
+          {
+            "pattern_id": "pattern0_45_5723",
+            "image_transform": "scale(0.0113636)",
+            "shapes": [
+              {
+                "tag": "rect",
+                "attrs": {
+                  "x": "127",
+                  "y": "1162",
+                  "width": "42",
+                  "height": "42",
+                  "rx": "21",
+                  "fill": "url(#pattern0_45_5723)"
+                }
+              }
+            ]
+          }
+        ],
+        "description": "Enrollment welcome mentor avatar"
+      },
+      {
+        "id": "image2_45_5723",
+        "file": "assets/platform/asset-2c4504894982d42e.png",
+        "width": 160,
+        "height": 160,
+        "usages": [
+          {
+            "direct_use": {
+              "{http://www.w3.org/1999/xlink}href": "#image2_45_5723",
+              "transform": "translate(324.239 1312.98) scale(0.0875)"
+            }
+          }
+        ],
+        "description": "Rocket icon for first lesson and project showcase"
+      },
+      {
+        "id": "image3_45_5723",
+        "file": "assets/platform/asset-1bb834344a1ac656.jpg",
+        "width": 470,
+        "height": 256,
+        "usages": [
+          {
+            "pattern_id": "pattern1_45_5723",
+            "image_transform": "matrix(0.00283965 0 0 0.00390625 -0.167318 0)",
+            "shapes": [
+              {
+                "tag": "rect",
+                "attrs": {
+                  "x": "77",
+                  "y": "1555",
+                  "width": "176",
+                  "height": "128",
+                  "rx": "12",
+                  "fill": "url(#pattern1_45_5723)"
+                }
+              }
+            ]
+          }
+        ],
+        "description": "Enrollment confirmation course welcome thumbnail"
+      },
+      {
+        "id": "image4_45_5723",
+        "file": "assets/platform/asset-a2b49727ab1498ea.png",
+        "width": 2172,
+        "height": 724,
+        "usages": [
+          {
+            "pattern_id": "pattern2_45_5723",
+            "image_transform": "matrix(0.000480423 0 0 0.00138122 -0.0434783 0)",
+            "shapes": [
+              {
+                "tag": "rect",
+                "attrs": {
+                  "x": "44",
+                  "y": "20",
+                  "width": "144",
+                  "height": "50",
+                  "fill": "url(#pattern2_45_5723)"
+                }
+              }
+            ]
+          }
+        ],
+        "description": "Transparent Burma Learners Hub header logo"
+      }
+    ],
+    "home-en-dark": [
+      {
+        "id": "image0_2_2889",
+        "file": "assets/reference-hero.webp",
+        "width": 512,
+        "height": 279,
+        "usages": [
+          {
+            "pattern_id": "pattern0_2_2889",
+            "image_transform": "matrix(0.00200868 0 0 0.00358423 -0.0142231 0)",
+            "shapes": [
+              {
+                "tag": "rect",
+                "attrs": {
+                  "width": "426.667",
+                  "height": "239.11",
+                  "transform": "translate(815.333 401.445)",
+                  "fill": "url(#pattern0_2_2889)"
+                }
+              }
+            ]
+          }
+        ],
+        "description": "Home lecture hero image"
+      },
+      {
+        "id": "image1_2_2889",
+        "file": "assets/platform/asset-7b56a5021fb72a3f.png",
+        "width": 160,
+        "height": 160,
+        "usages": [
+          {
+            "direct_use": {
+              "{http://www.w3.org/1999/xlink}href": "#image1_2_2889",
+              "transform": "matrix(0.1 0 0 0.1 1170.1 1661.12)"
+            }
+          }
+        ],
+        "description": "Home dark arrow icon"
+      },
+      {
+        "id": "image2_2_2889",
+        "file": "assets/reference-web.webp",
+        "width": 512,
+        "height": 279,
+        "usages": [
+          {
+            "pattern_id": "pattern1_2_2889",
+            "image_transform": "matrix(0.00201618 0 0 0.00358423 -0.016141 0)",
+            "shapes": [
+              {
+                "tag": "rect",
+                "attrs": {
+                  "width": "382",
+                  "height": "214.88",
+                  "transform": "translate(53 2156)",
+                  "fill": "url(#pattern1_2_2889)"
+                }
+              }
+            ]
+          }
+        ],
+        "description": "Home full-stack web course thumbnail"
+      },
+      {
+        "id": "image3_2_2889",
+        "file": "assets/reference-design.webp",
+        "width": 512,
+        "height": 279,
+        "usages": [
+          {
+            "pattern_id": "pattern2_2_2889",
+            "image_transform": "matrix(0.00201618 0 0 0.00358423 -0.016141 0)",
+            "shapes": [
+              {
+                "tag": "rect",
+                "attrs": {
+                  "width": "382",
+                  "height": "214.88",
+                  "transform": "translate(469 2156)",
+                  "fill": "url(#pattern2_2_2889)"
+                }
+              }
+            ]
+          }
+        ],
+        "description": "Home UI/UX design course thumbnail"
+      },
+      {
+        "id": "image4_2_2889",
+        "file": "assets/reference-marketing.webp",
+        "width": 512,
+        "height": 279,
+        "usages": [
+          {
+            "pattern_id": "pattern3_2_2889",
+            "image_transform": "matrix(0.00201618 0 0 0.00358423 -0.016141 0)",
+            "shapes": [
+              {
+                "tag": "rect",
+                "attrs": {
+                  "width": "382",
+                  "height": "214.88",
+                  "transform": "translate(885 2156)",
+                  "fill": "url(#pattern3_2_2889)"
+                }
+              }
+            ]
+          }
+        ],
+        "description": "Home marketing course thumbnail"
+      },
+      {
+        "id": "image5_2_2889",
+        "file": "assets/reference-instructor.webp",
+        "width": 512,
+        "height": 279,
+        "usages": [
+          {
+            "pattern_id": "pattern4_2_2889",
+            "image_transform": "matrix(0.0020062 0 0 0.00358423 -0.0135881 0)",
+            "shapes": [
+              {
+                "tag": "rect",
+                "attrs": {
+                  "width": "631.5",
+                  "height": "353.47",
+                  "transform": "translate(103 3047.9)",
+                  "fill": "url(#pattern4_2_2889)"
+                }
+              }
+            ]
+          }
+        ],
+        "description": "Featured lead instructor lecture photograph"
+      }
+    ],
+    "catalog": [
+      {
+        "id": "image0_33_1356",
+        "file": "assets/platform/asset-2a30d5e478e32af9.png",
+        "width": 160,
+        "height": 160,
+        "usages": [
+          {
+            "direct_use": {
+              "{http://www.w3.org/1999/xlink}href": "#image0_33_1356",
+              "transform": "translate(107 163.84) scale(0.075)"
+            }
+          }
+        ],
+        "description": "Catalog free-preview sparkle icon"
+      },
+      {
+        "id": "image1_33_1356",
+        "file": "assets/platform/asset-952e287873f31e42.jpg",
+        "width": 512,
+        "height": 279,
+        "usages": [
+          {
+            "pattern_id": "pattern0_33_1356",
+            "image_transform": "matrix(0.00201596 0 0 0.00358423 -0.0160865 0)",
+            "shapes": [
+              {
+                "tag": "rect",
+                "attrs": {
+                  "width": "283.333",
+                  "height": "159.36",
+                  "transform": "translate(357 834)",
+                  "fill": "url(#pattern0_33_1356)"
+                }
+              }
+            ]
+          }
+        ],
+        "description": "Catalog full-stack web development thumbnail"
+      },
+      {
+        "id": "image2_33_1356",
+        "file": "assets/platform/asset-e4a0f02564b61a8d.jpg",
+        "width": 512,
+        "height": 279,
+        "usages": [
+          {
+            "pattern_id": "pattern1_33_1356",
+            "image_transform": "matrix(0.00201596 0 0 0.00358423 -0.0160865 0)",
+            "shapes": [
+              {
+                "tag": "rect",
+                "attrs": {
+                  "width": "283.333",
+                  "height": "159.36",
+                  "transform": "translate(666.333 834)",
+                  "fill": "url(#pattern1_33_1356)"
+                }
+              }
+            ]
+          }
+        ],
+        "description": "Catalog UI/UX design masterclass thumbnail"
+      },
+      {
+        "id": "image3_33_1356",
+        "file": "assets/platform/asset-91af2785eae72530.jpg",
+        "width": 512,
+        "height": 279,
+        "usages": [
+          {
+            "pattern_id": "pattern2_33_1356",
+            "image_transform": "matrix(0.00201614 0 0 0.00358423 -0.0161331 0)",
+            "shapes": [
+              {
+                "tag": "rect",
+                "attrs": {
+                  "width": "283.333",
+                  "height": "159.38",
+                  "transform": "translate(975.667 834)",
+                  "fill": "url(#pattern2_33_1356)"
+                }
+              }
+            ]
+          }
+        ],
+        "description": "Catalog digital marketing and AI automation thumbnail"
+      },
+      {
+        "id": "image4_33_1356",
+        "file": "assets/platform/asset-07ab454696fe866e.png",
+        "width": 160,
+        "height": 160,
+        "usages": [
+          {
+            "direct_use": {
+              "{http://www.w3.org/1999/xlink}href": "#image4_33_1356",
+              "transform": "translate(1006.67 1023.65) scale(0.06875)"
+            }
+          }
+        ],
+        "description": "Catalog growth chart icon"
+      },
+      {
+        "id": "image5_33_1356",
+        "file": "assets/platform/asset-67896d07a627a5fc.jpg",
+        "width": 512,
+        "height": 279,
+        "usages": [
+          {
+            "pattern_id": "pattern3_33_1356",
+            "image_transform": "matrix(0.00201596 0 0 0.00358423 -0.0160865 0)",
+            "shapes": [
+              {
+                "tag": "rect",
+                "attrs": {
+                  "width": "283.333",
+                  "height": "159.36",
+                  "transform": "translate(357 1376.11)",
+                  "fill": "url(#pattern3_33_1356)"
+                }
+              }
+            ]
+          }
+        ],
+        "description": "Catalog Flutter and mobile architecture thumbnail"
+      },
+      {
+        "id": "image6_33_1356",
+        "file": "assets/platform/asset-e713eab2fb73a457.png",
+        "width": 160,
+        "height": 160,
+        "usages": [
+          {
+            "direct_use": {
+              "{http://www.w3.org/1999/xlink}href": "#image6_33_1356",
+              "transform": "translate(388 1565.74) scale(0.06875)"
+            }
+          }
+        ],
+        "description": "Catalog mobile development phone icon"
+      },
+      {
+        "id": "image7_33_1356",
+        "file": "assets/platform/asset-35f90f2150ab7ea3.jpg",
+        "width": 512,
+        "height": 279,
+        "usages": [
+          {
+            "pattern_id": "pattern4_33_1356",
+            "image_transform": "matrix(0.00201596 0 0 0.00358423 -0.0160865 0)",
+            "shapes": [
+              {
+                "tag": "rect",
+                "attrs": {
+                  "width": "283.333",
+                  "height": "159.36",
+                  "transform": "translate(666.333 1376.11)",
+                  "fill": "url(#pattern4_33_1356)"
+                }
+              }
+            ]
+          }
+        ],
+        "description": "Catalog Python analytics and machine learning thumbnail"
+      },
+      {
+        "id": "image8_33_1356",
+        "file": "assets/platform/asset-3c8689a31dd1a77d.png",
+        "width": 160,
+        "height": 160,
+        "usages": [
+          {
+            "direct_use": {
+              "{http://www.w3.org/1999/xlink}href": "#image8_33_1356",
+              "transform": "translate(697.333 1565.74) scale(0.06875)"
+            }
+          }
+        ],
+        "description": "Catalog machine learning brain icon"
+      },
+      {
+        "id": "image9_33_1356",
+        "file": "assets/platform/asset-606b4c3b18aed0cf.jpg",
+        "width": 512,
+        "height": 279,
+        "usages": [
+          {
+            "pattern_id": "pattern5_33_1356",
+            "image_transform": "matrix(0.00201614 0 0 0.00358423 -0.0161331 0)",
+            "shapes": [
+              {
+                "tag": "rect",
+                "attrs": {
+                  "width": "283.333",
+                  "height": "159.38",
+                  "transform": "translate(975.667 1376.11)",
+                  "fill": "url(#pattern5_33_1356)"
+                }
+              }
+            ]
+          }
+        ],
+        "description": "Catalog cloud architecture thumbnail"
+      },
+      {
+        "id": "image10_33_1356",
+        "file": "assets/platform/asset-5173aef52bf5fae9.png",
+        "width": 160,
+        "height": 160,
+        "usages": [
+          {
+            "direct_use": {
+              "{http://www.w3.org/1999/xlink}href": "#image10_33_1356",
+              "transform": "translate(1006.67 1565.75) scale(0.06875)"
+            }
+          }
+        ],
+        "description": "Catalog cloud icon"
+      },
+      {
+        "id": "image11_33_1356",
+        "file": "assets/reference-instructor.webp",
+        "width": 512,
+        "height": 279,
+        "usages": [
+          {
+            "pattern_id": "pattern6_33_1356",
+            "image_transform": "matrix(0.0020062 0 0 0.00358423 -0.0135881 0)",
+            "shapes": [
+              {
+                "tag": "rect",
+                "attrs": {
+                  "width": "631.5",
+                  "height": "353.47",
+                  "transform": "translate(95 2130.75)",
+                  "fill": "url(#pattern6_33_1356)"
+                }
+              }
+            ]
+          }
+        ],
+        "description": "Featured lead instructor lecture photograph"
+      },
+      {
+        "id": "image12_33_1356",
+        "file": "assets/platform/asset-a2b49727ab1498ea.png",
+        "width": 2172,
+        "height": 724,
+        "usages": [
+          {
+            "pattern_id": "pattern7_33_1356",
+            "image_transform": "matrix(0.000480423 0 0 0.00138122 -0.0434783 0)",
+            "shapes": [
+              {
+                "tag": "rect",
+                "attrs": {
+                  "x": "44",
+                  "y": "20",
+                  "width": "144",
+                  "height": "50",
+                  "fill": "url(#pattern7_33_1356)"
+                }
+              }
+            ]
+          }
+        ],
+        "description": "Transparent Burma Learners Hub header logo"
+      }
+    ],
+    "payment": [
+      {
+        "id": "image0_44_5267",
+        "file": "assets/platform/asset-3839def590cff905.jpg",
+        "width": 198,
+        "height": 108,
+        "usages": [
+          {
+            "pattern_id": "pattern0_44_5267",
+            "image_transform": "matrix(0.00641652 0 0 0.00925926 -0.135236 0)",
+            "shapes": [
+              {
+                "tag": "rect",
+                "attrs": {
+                  "width": "78",
+                  "height": "54",
+                  "transform": "translate(64 100)",
+                  "fill": "url(#pattern0_44_5267)"
+                }
+              }
+            ]
+          }
+        ],
+        "description": "Payment course thumbnail"
+      },
+      {
+        "id": "image1_44_5267",
+        "file": "assets/platform/asset-6567c6802470abb3.jpg",
+        "width": 112,
+        "height": 112,
+        "usages": [
+          {
+            "pattern_id": "pattern1_44_5267",
+            "image_transform": "scale(0.00892857)",
+            "shapes": [
+              {
+                "tag": "rect",
+                "attrs": {
+                  "x": "311.902",
+                  "y": "684.062",
+                  "width": "56",
+                  "height": "56",
+                  "rx": "8",
+                  "fill": "url(#pattern1_44_5267)"
+                }
+              }
+            ]
+          }
+        ],
+        "description": "Payment instant enrollment support illustration"
+      },
+      {
+        "id": "image2_44_5267",
+        "file": "assets/platform/asset-c401aa2af680a031.jpg",
+        "width": 128,
+        "height": 128,
+        "usages": [
+          {
+            "pattern_id": "pattern2_44_5267",
+            "image_transform": "scale(0.0078125)",
+            "shapes": [
+              {
+                "tag": "rect",
+                "attrs": {
+                  "x": "684.167",
+                  "y": "521",
+                  "width": "64",
+                  "height": "64",
+                  "rx": "6",
+                  "fill": "url(#pattern2_44_5267)",
+                  "shape-rendering": "crispEdges"
+                }
+              }
+            ]
+          }
+        ],
+        "description": "Payment secure mobile payment illustration"
+      }
+    ],
+    "lesson": [
+      {
+        "id": "image0_46_6333",
+        "file": "assets/platform/asset-1fb948814185954b.png",
+        "width": 160,
+        "height": 160,
+        "usages": [
+          {
+            "direct_use": {
+              "{http://www.w3.org/1999/xlink}href": "#image0_46_6333",
+              "transform": "translate(59.0002 146.34) scale(0.075)"
+            }
+          }
+        ],
+        "description": "Low-bandwidth adaptive stream lightning icon"
+      },
+      {
+        "id": "image1_46_6333",
+        "file": "assets/platform/asset-62b02b353ec15e8e.jpg",
+        "width": 401,
+        "height": 224,
+        "usages": [
+          {
+            "pattern_id": "pattern0_46_6333",
+            "image_transform": "matrix(0.00290703 0 0 0.00446429 -0.082859 0)",
+            "shapes": [
+              {
+                "tag": "rect",
+                "attrs": {
+                  "width": "172",
+                  "height": "112",
+                  "transform": "translate(650.33 472.36)",
+                  "fill": "url(#pattern0_46_6333)"
+                }
+              }
+            ]
+          }
+        ],
+        "description": "Lesson and assignment instructor picture-in-picture"
+      },
+      {
+        "id": "image2_46_6333",
+        "file": "assets/platform/asset-49834627bb49bb66.jpg",
+        "width": 48,
+        "height": 48,
+        "usages": [
+          {
+            "pattern_id": "pattern1_46_6333",
+            "image_transform": "scale(0.0208333)",
+            "shapes": [
+              {
+                "tag": "rect",
+                "attrs": {
+                  "x": "57",
+                  "y": "816.375",
+                  "width": "24",
+                  "height": "24",
+                  "rx": "12",
+                  "fill": "url(#pattern1_46_6333)"
+                }
+              }
+            ]
+          }
+        ],
+        "description": "Lesson and assignment instructor avatar"
+      },
+      {
+        "id": "image3_46_6333",
+        "file": "assets/platform/asset-f3b8f53fe1d7ddf9.jpg",
+        "width": 64,
+        "height": 64,
+        "usages": [
+          {
+            "pattern_id": "pattern2_46_6333",
+            "image_transform": "scale(0.015625)",
+            "shapes": [
+              {
+                "tag": "rect",
+                "attrs": {
+                  "x": "890.334",
+                  "y": "916",
+                  "width": "32",
+                  "height": "32",
+                  "rx": "16",
+                  "fill": "url(#pattern2_46_6333)",
+                  "shape-rendering": "crispEdges"
+                }
+              }
+            ]
+          }
+        ],
+        "description": "Batch peer avatar 1"
+      },
+      {
+        "id": "image4_46_6333",
+        "file": "assets/platform/asset-c3133bff2466bdcb.jpg",
+        "width": 64,
+        "height": 64,
+        "usages": [
+          {
+            "pattern_id": "pattern3_46_6333",
+            "image_transform": "scale(0.015625)",
+            "shapes": [
+              {
+                "tag": "rect",
+                "attrs": {
+                  "x": "914.334",
+                  "y": "916",
+                  "width": "32",
+                  "height": "32",
+                  "rx": "16",
+                  "fill": "url(#pattern3_46_6333)",
+                  "shape-rendering": "crispEdges"
+                }
+              }
+            ]
+          }
+        ],
+        "description": "Batch peer avatar 2"
+      },
+      {
+        "id": "image5_46_6333",
+        "file": "assets/platform/asset-93f7ae813f026a13.jpg",
+        "width": 64,
+        "height": 64,
+        "usages": [
+          {
+            "pattern_id": "pattern4_46_6333",
+            "image_transform": "scale(0.015625)",
+            "shapes": [
+              {
+                "tag": "rect",
+                "attrs": {
+                  "x": "938.334",
+                  "y": "916",
+                  "width": "32",
+                  "height": "32",
+                  "rx": "16",
+                  "fill": "url(#pattern4_46_6333)",
+                  "shape-rendering": "crispEdges"
+                }
+              }
+            ]
+          }
+        ],
+        "description": "Batch peer avatar 3"
+      },
+      {
+        "id": "image6_46_6333",
+        "file": "assets/platform/asset-16e80218a56b2004.jpg",
+        "width": 64,
+        "height": 64,
+        "usages": [
+          {
+            "pattern_id": "pattern5_46_6333",
+            "image_transform": "scale(0.015625)",
+            "shapes": [
+              {
+                "tag": "rect",
+                "attrs": {
+                  "x": "962.334",
+                  "y": "916",
+                  "width": "32",
+                  "height": "32",
+                  "rx": "16",
+                  "fill": "url(#pattern5_46_6333)",
+                  "shape-rendering": "crispEdges"
+                }
+              }
+            ]
+          }
+        ],
+        "description": "Batch peer avatar 4"
+      },
+      {
+        "id": "image7_46_6333",
+        "file": "assets/platform/asset-a2b49727ab1498ea.png",
+        "width": 2172,
+        "height": 724,
+        "usages": [
+          {
+            "pattern_id": "pattern6_46_6333",
+            "image_transform": "matrix(0.000480423 0 0 0.00138122 -0.0434783 0)",
+            "shapes": [
+              {
+                "tag": "rect",
+                "attrs": {
+                  "x": "44",
+                  "y": "20",
+                  "width": "144",
+                  "height": "50",
+                  "fill": "url(#pattern6_46_6333)"
+                }
+              }
+            ]
+          }
+        ],
+        "description": "Transparent Burma Learners Hub header logo"
+      }
+    ],
+    "course": [
+      {
+        "id": "image0_33_2208",
+        "file": "assets/platform/asset-96325ca62212c08e.jpg",
+        "width": 512,
+        "height": 279,
+        "usages": [
+          {
+            "pattern_id": "pattern0_33_2208",
+            "image_transform": "matrix(0.00201599 0 0 0.00358423 -0.0160945 0)",
+            "shapes": [
+              {
+                "tag": "rect",
+                "attrs": {
+                  "width": "481.333",
+                  "height": "270.73",
+                  "transform": "translate(777.667 197)",
+                  "fill": "url(#pattern0_33_2208)"
+                }
+              }
+            ]
+          }
+        ],
+        "description": "Course detail full-stack development hero"
+      },
+      {
+        "id": "image1_33_2208",
+        "file": "assets/platform/asset-2c4504894982d42e.png",
+        "width": 160,
+        "height": 160,
+        "usages": [
+          {
+            "direct_use": {
+              "{http://www.w3.org/1999/xlink}href": "#image1_33_2208",
+              "transform": "translate(907.903 597.78) scale(0.09375)"
+            }
+          }
+        ],
+        "description": "Rocket icon for first lesson and project showcase"
+      },
+      {
+        "id": "image2_33_2208",
+        "file": "assets/platform/asset-a73036ff81334b33.jpg",
+        "width": 512,
+        "height": 279,
+        "usages": [
+          {
+            "pattern_id": "pattern1_33_2208",
+            "image_transform": "matrix(0.00195312 0 0 0.00384631 0 -0.0365601)",
+            "shapes": [
+              {
+                "tag": "rect",
+                "attrs": {
+                  "width": "342.667",
+                  "height": "174",
+                  "transform": "translate(66 1200.28)",
+                  "fill": "url(#pattern1_33_2208)"
+                }
+              }
+            ]
+          }
+        ],
+        "description": "Course project: fintech transaction dashboard"
+      },
+      {
+        "id": "image3_33_2208",
+        "file": "assets/platform/asset-ee498a29890aa872.jpg",
+        "width": 512,
+        "height": 279,
+        "usages": [
+          {
+            "pattern_id": "pattern2_33_2208",
+            "image_transform": "matrix(0.00195312 0 0 0.00384642 0 -0.0365758)",
+            "shapes": [
+              {
+                "tag": "rect",
+                "attrs": {
+                  "width": "342.667",
+                  "height": "174",
+                  "transform": "translate(476.667 1200.28)",
+                  "fill": "url(#pattern2_33_2208)"
+                }
+              }
+            ]
+          }
+        ],
+        "description": "Course project: collaborative student portal"
+      },
+      {
+        "id": "image4_33_2208",
+        "file": "assets/platform/asset-2b8a5b74ef19eb7b.jpg",
+        "width": 512,
+        "height": 279,
+        "usages": [
+          {
+            "pattern_id": "pattern3_33_2208",
+            "image_transform": "matrix(0.00195312 0 0 0.00384631 0 -0.0365601)",
+            "shapes": [
+              {
+                "tag": "rect",
+                "attrs": {
+                  "width": "342.667",
+                  "height": "174",
+                  "transform": "translate(66 1608.16)",
+                  "fill": "url(#pattern3_33_2208)"
+                }
+              }
+            ]
+          }
+        ],
+        "description": "Course project: course commerce dashboard"
+      },
+      {
+        "id": "image5_33_2208",
+        "file": "assets/platform/asset-5288ab6c3f745dbb.jpg",
+        "width": 512,
+        "height": 279,
+        "usages": [
+          {
+            "pattern_id": "pattern4_33_2208",
+            "image_transform": "matrix(0.00195312 0 0 0.00384642 0 -0.0365758)",
+            "shapes": [
+              {
+                "tag": "rect",
+                "attrs": {
+                  "width": "342.667",
+                  "height": "174",
+                  "transform": "translate(476.667 1608.16)",
+                  "fill": "url(#pattern4_33_2208)"
+                }
+              }
+            ]
+          }
+        ],
+        "description": "Course project: cloud analytics engine"
+      },
+      {
+        "id": "image6_33_2208",
+        "file": "assets/platform/asset-a2b49727ab1498ea.png",
+        "width": 2172,
+        "height": 724,
+        "usages": [
+          {
+            "pattern_id": "pattern5_33_2208",
+            "image_transform": "matrix(0.000480423 0 0 0.00138122 -0.0434783 0)",
+            "shapes": [
+              {
+                "tag": "rect",
+                "attrs": {
+                  "x": "44",
+                  "y": "20",
+                  "width": "144",
+                  "height": "50",
+                  "fill": "url(#pattern5_33_2208)"
+                }
+              }
+            ]
+          }
+        ],
+        "description": "Transparent Burma Learners Hub header logo"
+      }
+    ],
+    "home-my-light": [
+      {
+        "id": "image0_3_2006",
+        "file": "assets/reference-hero.webp",
+        "width": 512,
+        "height": 279,
+        "usages": [
+          {
+            "pattern_id": "pattern0_3_2006",
+            "image_transform": "matrix(0.00200868 0 0 0.00358423 -0.0142231 0)",
+            "shapes": [
+              {
+                "tag": "rect",
+                "attrs": {
+                  "width": "426.667",
+                  "height": "239.11",
+                  "transform": "translate(807.333 388.445)",
+                  "fill": "url(#pattern0_3_2006)"
+                }
+              }
+            ]
+          }
+        ],
+        "description": "Home lecture hero image"
+      },
+      {
+        "id": "image1_3_2006",
+        "file": "assets/reference-web.webp",
+        "width": 512,
+        "height": 279,
+        "usages": [
+          {
+            "pattern_id": "pattern1_3_2006",
+            "image_transform": "matrix(0.00201618 0 0 0.00358423 -0.016141 0)",
+            "shapes": [
+              {
+                "tag": "rect",
+                "attrs": {
+                  "width": "382",
+                  "height": "214.88",
+                  "transform": "translate(45 2239)",
+                  "fill": "url(#pattern1_3_2006)"
+                }
+              }
+            ]
+          }
+        ],
+        "description": "Home full-stack web course thumbnail"
+      },
+      {
+        "id": "image2_3_2006",
+        "file": "assets/reference-design.webp",
+        "width": 512,
+        "height": 279,
+        "usages": [
+          {
+            "pattern_id": "pattern2_3_2006",
+            "image_transform": "matrix(0.00201618 0 0 0.00358423 -0.016141 0)",
+            "shapes": [
+              {
+                "tag": "rect",
+                "attrs": {
+                  "width": "382",
+                  "height": "214.88",
+                  "transform": "translate(461 2239)",
+                  "fill": "url(#pattern2_3_2006)"
+                }
+              }
+            ]
+          }
+        ],
+        "description": "Home UI/UX design course thumbnail"
+      },
+      {
+        "id": "image3_3_2006",
+        "file": "assets/reference-marketing.webp",
+        "width": 512,
+        "height": 279,
+        "usages": [
+          {
+            "pattern_id": "pattern3_3_2006",
+            "image_transform": "matrix(0.00201618 0 0 0.00358423 -0.016141 0)",
+            "shapes": [
+              {
+                "tag": "rect",
+                "attrs": {
+                  "width": "382",
+                  "height": "214.88",
+                  "transform": "translate(877 2239)",
+                  "fill": "url(#pattern3_3_2006)"
+                }
+              }
+            ]
+          }
+        ],
+        "description": "Home marketing course thumbnail"
+      },
+      {
+        "id": "image4_3_2006",
+        "file": "assets/reference-instructor.webp",
+        "width": 512,
+        "height": 279,
+        "usages": [
+          {
+            "pattern_id": "pattern4_3_2006",
+            "image_transform": "matrix(0.0020062 0 0 0.00358423 -0.0135881 0)",
+            "shapes": [
+              {
+                "tag": "rect",
+                "attrs": {
+                  "width": "631.5",
+                  "height": "353.47",
+                  "transform": "translate(95 3129.52)",
+                  "fill": "url(#pattern4_3_2006)"
+                }
+              }
+            ]
+          }
+        ],
+        "description": "Featured lead instructor lecture photograph"
+      },
+      {
+        "id": "image5_3_2006",
+        "file": "assets/platform/asset-a2b49727ab1498ea.png",
+        "width": 2172,
+        "height": 724,
+        "usages": [
+          {
+            "pattern_id": "pattern5_3_2006",
+            "image_transform": "matrix(0.000480423 0 0 0.00138122 -0.0434783 0)",
+            "shapes": [
+              {
+                "tag": "rect",
+                "attrs": {
+                  "x": "44",
+                  "y": "20",
+                  "width": "144",
+                  "height": "50",
+                  "fill": "url(#pattern5_3_2006)"
+                }
+              }
+            ]
+          }
+        ],
+        "description": "Transparent Burma Learners Hub header logo"
+      }
+    ],
+    "community": [
+      {
+        "id": "image0_47_7089",
+        "file": "assets/platform/asset-f0f401954fcb09ce.jpg",
+        "width": 338,
+        "height": 184,
+        "usages": [
+          {
+            "pattern_id": "pattern0_47_7089",
+            "image_transform": "matrix(0.00402824 0 0 0.00543478 -0.180772 0)",
+            "shapes": [
+              {
+                "tag": "rect",
+                "attrs": {
+                  "width": "124",
+                  "height": "92",
+                  "transform": "translate(668.33 1103)",
+                  "fill": "url(#pattern0_47_7089)"
+                }
+              }
+            ]
+          }
+        ],
+        "description": "Community live-code instructor picture-in-picture"
+      }
+    ],
+    "home-my-dark": [
+      {
+        "id": "image0_3_2",
+        "file": "assets/reference-hero.webp",
+        "width": 512,
+        "height": 279,
+        "usages": [
+          {
+            "pattern_id": "pattern0_3_2",
+            "image_transform": "matrix(0.00200868 0 0 0.00358423 -0.0142231 0)",
+            "shapes": [
+              {
+                "tag": "rect",
+                "attrs": {
+                  "width": "426.667",
+                  "height": "239.11",
+                  "transform": "translate(815.333 396.445)",
+                  "fill": "url(#pattern0_3_2)"
+                }
+              }
+            ]
+          }
+        ],
+        "description": "Home lecture hero image"
+      },
+      {
+        "id": "image1_3_2",
+        "file": "assets/platform/asset-7b56a5021fb72a3f.png",
+        "width": 160,
+        "height": 160,
+        "usages": [
+          {
+            "direct_use": {
+              "{http://www.w3.org/1999/xlink}href": "#image1_3_2",
+              "transform": "translate(1139.1 1699.96) scale(0.0875)"
+            }
+          }
+        ],
+        "description": "Home dark arrow icon"
+      },
+      {
+        "id": "image2_3_2",
+        "file": "assets/reference-web.webp",
+        "width": 512,
+        "height": 279,
+        "usages": [
+          {
+            "pattern_id": "pattern1_3_2",
+            "image_transform": "matrix(0.00201618 0 0 0.00358423 -0.016141 0)",
+            "shapes": [
+              {
+                "tag": "rect",
+                "attrs": {
+                  "width": "382",
+                  "height": "214.88",
+                  "transform": "translate(53 2136)",
+                  "fill": "url(#pattern1_3_2)"
+                }
+              }
+            ]
+          }
+        ],
+        "description": "Home full-stack web course thumbnail"
+      },
+      {
+        "id": "image3_3_2",
+        "file": "assets/reference-design.webp",
+        "width": 512,
+        "height": 279,
+        "usages": [
+          {
+            "pattern_id": "pattern2_3_2",
+            "image_transform": "matrix(0.00201618 0 0 0.00358423 -0.016141 0)",
+            "shapes": [
+              {
+                "tag": "rect",
+                "attrs": {
+                  "width": "382",
+                  "height": "214.88",
+                  "transform": "translate(469 2136)",
+                  "fill": "url(#pattern2_3_2)"
+                }
+              }
+            ]
+          }
+        ],
+        "description": "Home UI/UX design course thumbnail"
+      },
+      {
+        "id": "image4_3_2",
+        "file": "assets/reference-marketing.webp",
+        "width": 512,
+        "height": 279,
+        "usages": [
+          {
+            "pattern_id": "pattern3_3_2",
+            "image_transform": "matrix(0.00201618 0 0 0.00358423 -0.016141 0)",
+            "shapes": [
+              {
+                "tag": "rect",
+                "attrs": {
+                  "width": "382",
+                  "height": "214.88",
+                  "transform": "translate(885 2136)",
+                  "fill": "url(#pattern3_3_2)"
+                }
+              }
+            ]
+          }
+        ],
+        "description": "Home marketing course thumbnail"
+      },
+      {
+        "id": "image5_3_2",
+        "file": "assets/reference-instructor.webp",
+        "width": 512,
+        "height": 279,
+        "usages": [
+          {
+            "pattern_id": "pattern4_3_2",
+            "image_transform": "matrix(0.0020062 0 0 0.00358423 -0.0135881 0)",
+            "shapes": [
+              {
+                "tag": "rect",
+                "attrs": {
+                  "width": "631.5",
+                  "height": "353.47",
+                  "transform": "translate(103 3027.9)",
+                  "fill": "url(#pattern4_3_2)"
+                }
+              }
+            ]
+          }
+        ],
+        "description": "Featured lead instructor lecture photograph"
+      }
+    ]
+  },
+  "assets": {
+    "assets/reference-hero.webp": {
+      "width": 512,
+      "height": 279,
+      "format": "JPEG",
+      "pixel_sha256": "a64990dbb1cfd5bdb5b292619edfb1f5dd81a31c6a45987df6b2f187da9d552a",
+      "encoded_sha256": "01454accbc6e16dbce5a1293e0931f8d9e4d7fa808b318e69320335e52bee0dc",
+      "reused_existing_asset": true,
+      "pages": [
+        "home-en-light",
+        "home-en-dark",
+        "home-my-light",
+        "home-my-dark"
+      ],
+      "description": "Home lecture hero image"
+    },
+    "assets/reference-web.webp": {
+      "width": 512,
+      "height": 279,
+      "format": "JPEG",
+      "pixel_sha256": "39363bf934e3e5362125c0443f457135bfe7de0e944505d85ee094ea5c6e2639",
+      "encoded_sha256": "f8164891a754b52444bc346f53e4c35b31563e9acd4585f106ef0158debb5a7c",
+      "reused_existing_asset": true,
+      "pages": [
+        "home-en-light",
+        "home-en-dark",
+        "home-my-light",
+        "home-my-dark"
+      ],
+      "description": "Home full-stack web course thumbnail"
+    },
+    "assets/reference-design.webp": {
+      "width": 512,
+      "height": 279,
+      "format": "JPEG",
+      "pixel_sha256": "746e42b9abc823357c68acb82c876470b6b3ac4d9a96b989946f209ac9c20e5d",
+      "encoded_sha256": "a9815f1cf12b0f95c4b542f5633b1731f84a552eb2cf116361a45bba39dcbfda",
+      "reused_existing_asset": true,
+      "pages": [
+        "home-en-light",
+        "home-en-dark",
+        "home-my-light",
+        "home-my-dark"
+      ],
+      "description": "Home UI/UX design course thumbnail"
+    },
+    "assets/reference-marketing.webp": {
+      "width": 512,
+      "height": 279,
+      "format": "JPEG",
+      "pixel_sha256": "79d718fdac9704a28d1653ee531d7a0ff3c1547702e7ca53fadf3c6326c2ee51",
+      "encoded_sha256": "0f5c216ab0670a3baaabd9cb5f199113c18bcff84e3c02dbca4dfa821e0be79c",
+      "reused_existing_asset": true,
+      "pages": [
+        "home-en-light",
+        "home-en-dark",
+        "home-my-light",
+        "home-my-dark"
+      ],
+      "description": "Home marketing course thumbnail"
+    },
+    "assets/reference-instructor.webp": {
+      "width": 512,
+      "height": 279,
+      "format": "JPEG",
+      "pixel_sha256": "0ee7489bc6128ceb581e3e3e04c095c6f253c44cd0866933b82a87635484eafc",
+      "encoded_sha256": "c12129e37d60e99a33046e51c50362cf4e8c53c1b3a3a42f6053dbdfbd755ac0",
+      "reused_existing_asset": true,
+      "pages": [
+        "home-en-light",
+        "home-en-dark",
+        "catalog",
+        "home-my-light",
+        "home-my-dark"
+      ],
+      "description": "Featured lead instructor lecture photograph"
+    },
+    "assets/platform/asset-a2b49727ab1498ea.png": {
+      "width": 2172,
+      "height": 724,
+      "format": "PNG",
+      "pixel_sha256": "963bfab9509679ee0f7a1f36ac6f7f16347350e9c6be06e4ff2faf409345a70c",
+      "encoded_sha256": "a2b49727ab1498eaf68b5a42095ef52694faafdfc810ce94a9ce0f81c031e625",
+      "reused_existing_asset": false,
+      "pages": [
+        "home-en-light",
+        "confirmed",
+        "catalog",
+        "lesson",
+        "course",
+        "home-my-light"
+      ],
+      "description": "Transparent Burma Learners Hub header logo"
+    },
+    "assets/platform/asset-1fb948814185954b.png": {
+      "width": 160,
+      "height": 160,
+      "format": "PNG",
+      "pixel_sha256": "330ec35a0981d78a024d27ffeaf9f45ff0313c338697375adf530d17535350ac",
+      "encoded_sha256": "1fb948814185954bba36bfde30f892d284f0b4b97220f9f587d9fbfea387fdd3",
+      "reused_existing_asset": false,
+      "pages": [
+        "assignment",
+        "lesson"
+      ],
+      "description": "Low-bandwidth adaptive stream lightning icon"
+    },
+    "assets/platform/asset-62b02b353ec15e8e.jpg": {
+      "width": 401,
+      "height": 224,
+      "format": "JPEG",
+      "pixel_sha256": "1f0e1d08c18e1588aaed217dff3d9e2700025d35236a0ff7f5c32fa41ba8ddbf",
+      "encoded_sha256": "62b02b353ec15e8e72369fc3d5e2417b08287ceb37c6bfc5af96f76e209af239",
+      "reused_existing_asset": false,
+      "pages": [
+        "assignment",
+        "lesson"
+      ],
+      "description": "Lesson and assignment instructor picture-in-picture"
+    },
+    "assets/platform/asset-49834627bb49bb66.jpg": {
+      "width": 48,
+      "height": 48,
+      "format": "JPEG",
+      "pixel_sha256": "5d6c40d96f4f3e8afa17e0de69215fecd9e10abea0b643dd4818018f0656c76b",
+      "encoded_sha256": "49834627bb49bb6611d40a4782134a40917aa900bf7df3d30f079d44fbdd0f7c",
+      "reused_existing_asset": false,
+      "pages": [
+        "assignment",
+        "lesson"
+      ],
+      "description": "Lesson and assignment instructor avatar"
+    },
+    "assets/platform/asset-f3b8f53fe1d7ddf9.jpg": {
+      "width": 64,
+      "height": 64,
+      "format": "JPEG",
+      "pixel_sha256": "2c2a414235ea3fac209b572b36be14853b081480fee031aa7d05e7ab526a4ac3",
+      "encoded_sha256": "f3b8f53fe1d7ddf905e1b26ad5a9a3dcdf5809ac758f0f1b7bdff88b80276609",
+      "reused_existing_asset": false,
+      "pages": [
+        "assignment",
+        "lesson"
+      ],
+      "description": "Batch peer avatar 1"
+    },
+    "assets/platform/asset-c3133bff2466bdcb.jpg": {
+      "width": 64,
+      "height": 64,
+      "format": "JPEG",
+      "pixel_sha256": "b189a5ec7f57537b0791e09dd0bcd89d0af60bd1d8645407d0ca925cd36d60bd",
+      "encoded_sha256": "c3133bff2466bdcbeab22b70b5f65316339b83769bb5c5103ea77bcc3de75c8f",
+      "reused_existing_asset": false,
+      "pages": [
+        "assignment",
+        "lesson"
+      ],
+      "description": "Batch peer avatar 2"
+    },
+    "assets/platform/asset-93f7ae813f026a13.jpg": {
+      "width": 64,
+      "height": 64,
+      "format": "JPEG",
+      "pixel_sha256": "e4dea398f307d538d2a371d3071e10f7d969eb0a93bc4ff33554bfdc7483cf2d",
+      "encoded_sha256": "93f7ae813f026a132d96b2257d2a5dcefe1b0fa958370ac728803e736ea9dbb3",
+      "reused_existing_asset": false,
+      "pages": [
+        "assignment",
+        "lesson"
+      ],
+      "description": "Batch peer avatar 3"
+    },
+    "assets/platform/asset-16e80218a56b2004.jpg": {
+      "width": 64,
+      "height": 64,
+      "format": "JPEG",
+      "pixel_sha256": "87565aaede49f35a3571c038f864c5c5ffcecd4024a6362d5afd92e0b1d9ef02",
+      "encoded_sha256": "16e80218a56b20047eac31901893dd5ba41df6f91b9ebeec3667aff0d377b46b",
+      "reused_existing_asset": false,
+      "pages": [
+        "assignment",
+        "lesson"
+      ],
+      "description": "Batch peer avatar 4"
+    },
+    "assets/platform/asset-4c9f0718bf6d4859.jpg": {
+      "width": 72,
+      "height": 129,
+      "format": "JPEG",
+      "pixel_sha256": "4d0ffa2d1b167f7a8a2b74a673a1dd1d748b74b6a88b6dc719aeeed409641b9b",
+      "encoded_sha256": "4c9f0718bf6d4859eeb7264b777c9000ecc8a7d099ec937a556a9c4256990acb",
+      "reused_existing_asset": false,
+      "pages": [
+        "assignment"
+      ],
+      "description": "Assignment student header avatar"
+    },
+    "assets/platform/asset-a29a561456efe0c6.png": {
+      "width": 160,
+      "height": 160,
+      "format": "PNG",
+      "pixel_sha256": "acfe9ec03446d66d40e87c5816283636eeceddfaf858909ca0d07590eb524955",
+      "encoded_sha256": "a29a561456efe0c64fe024794903232b4ca4e8f4b10dae846493e89cfee8434e",
+      "reused_existing_asset": false,
+      "pages": [
+        "confirmed"
+      ],
+      "description": "Enrollment confirmation celebration icon"
+    },
+    "assets/platform/asset-94a2af249a315700.jpg": {
+      "width": 88,
+      "height": 88,
+      "format": "JPEG",
+      "pixel_sha256": "b58cc7611a500e680e40c79a1b24844f187682ddd57bc86814ea4810fd3c9be7",
+      "encoded_sha256": "94a2af249a3157004e7c564941d56fae2a5bed96577aa56622460af3bc4b64ec",
+      "reused_existing_asset": false,
+      "pages": [
+        "confirmed"
+      ],
+      "description": "Enrollment welcome mentor avatar"
+    },
+    "assets/platform/asset-2c4504894982d42e.png": {
+      "width": 160,
+      "height": 160,
+      "format": "PNG",
+      "pixel_sha256": "230bd14d59aa6c8d50e74db14b59c39bd77f256f4ebee1964102b5665441f66e",
+      "encoded_sha256": "2c4504894982d42ead86dba7feac656c0af355b87e4f98a176b98ed251d7127b",
+      "reused_existing_asset": false,
+      "pages": [
+        "confirmed",
+        "course"
+      ],
+      "description": "Rocket icon for first lesson and project showcase"
+    },
+    "assets/platform/asset-1bb834344a1ac656.jpg": {
+      "width": 470,
+      "height": 256,
+      "format": "JPEG",
+      "pixel_sha256": "3a78c0e3f4c2dd9e17ae3127a55e759d8ed54f274e95f1f4bb7a75d3876f79e7",
+      "encoded_sha256": "1bb834344a1ac6561698cf9335d44ab63b6935761c6a4a822037eb2520eb3aa9",
+      "reused_existing_asset": false,
+      "pages": [
+        "confirmed"
+      ],
+      "description": "Enrollment confirmation course welcome thumbnail"
+    },
+    "assets/platform/asset-7b56a5021fb72a3f.png": {
+      "width": 160,
+      "height": 160,
+      "format": "PNG",
+      "pixel_sha256": "27a499a7122ac17ad0e6ed5c1cb0505df29d6957c37293fc3c7ce2ab6f8ccac9",
+      "encoded_sha256": "7b56a5021fb72a3f7a8d273da0a3b26308e04069c467378b4a232049dd89a74a",
+      "reused_existing_asset": false,
+      "pages": [
+        "home-en-dark",
+        "home-my-dark"
+      ],
+      "description": "Home dark arrow icon"
+    },
+    "assets/platform/asset-2a30d5e478e32af9.png": {
+      "width": 160,
+      "height": 160,
+      "format": "PNG",
+      "pixel_sha256": "f0803720e41ebe604e89dae16ae273f89ac3ab0da1708303de6c52f3dbec199a",
+      "encoded_sha256": "2a30d5e478e32af91dcc51fbfcb9bf5bcca4e9c94ac65ee7231ae30c857bf372",
+      "reused_existing_asset": false,
+      "pages": [
+        "catalog"
+      ],
+      "description": "Catalog free-preview sparkle icon"
+    },
+    "assets/platform/asset-952e287873f31e42.jpg": {
+      "width": 512,
+      "height": 279,
+      "format": "JPEG",
+      "pixel_sha256": "c127d96c6cd4b9c066daaa5c4c2e8fbe5604dcfc0cdbda2b0d870fbd62cd6012",
+      "encoded_sha256": "952e287873f31e428db04e7a6e2448c8a833f80458a0af7798b32c091f2ff8d2",
+      "reused_existing_asset": false,
+      "pages": [
+        "catalog"
+      ],
+      "description": "Catalog full-stack web development thumbnail"
+    },
+    "assets/platform/asset-e4a0f02564b61a8d.jpg": {
+      "width": 512,
+      "height": 279,
+      "format": "JPEG",
+      "pixel_sha256": "54335967384a0a1853ff6b80e2e75f16c9901a76dca7ecdc1b0ea36eb78ddfd3",
+      "encoded_sha256": "e4a0f02564b61a8dee416b4f4dc0d81abd4b67e157c11da175371b1313deb39a",
+      "reused_existing_asset": false,
+      "pages": [
+        "catalog"
+      ],
+      "description": "Catalog UI/UX design masterclass thumbnail"
+    },
+    "assets/platform/asset-91af2785eae72530.jpg": {
+      "width": 512,
+      "height": 279,
+      "format": "JPEG",
+      "pixel_sha256": "ee87037625d4835c9f8fc8cd82a18725583642970c7ae1123dad7bb3bf8d3fbf",
+      "encoded_sha256": "91af2785eae72530a9d4deec3fd4ceae75b5c8af79b25a4214a946298d70efe2",
+      "reused_existing_asset": false,
+      "pages": [
+        "catalog"
+      ],
+      "description": "Catalog digital marketing and AI automation thumbnail"
+    },
+    "assets/platform/asset-07ab454696fe866e.png": {
+      "width": 160,
+      "height": 160,
+      "format": "PNG",
+      "pixel_sha256": "2f0ccc1022202c1b4658b643d4b1fa03a4808aac8a993815e54a9c5bc3ce4c2f",
+      "encoded_sha256": "07ab454696fe866e536af732f1819c4d8c43ef26b6eac210630dc18dec54c1b8",
+      "reused_existing_asset": false,
+      "pages": [
+        "catalog"
+      ],
+      "description": "Catalog growth chart icon"
+    },
+    "assets/platform/asset-67896d07a627a5fc.jpg": {
+      "width": 512,
+      "height": 279,
+      "format": "JPEG",
+      "pixel_sha256": "530a2f5a1be8fe146ec552b917dd7559d76974970c0be5638fb876b148cb1086",
+      "encoded_sha256": "67896d07a627a5fc7b9a146f1dc7f1158518a4245b390d3e390c41d2059be9c6",
+      "reused_existing_asset": false,
+      "pages": [
+        "catalog"
+      ],
+      "description": "Catalog Flutter and mobile architecture thumbnail"
+    },
+    "assets/platform/asset-e713eab2fb73a457.png": {
+      "width": 160,
+      "height": 160,
+      "format": "PNG",
+      "pixel_sha256": "e7d70e9c1560710ff53d4f24d2c4a8201b1ebe4ff1fd2d88a7ef7417835a047d",
+      "encoded_sha256": "e713eab2fb73a4577ec18f5d5f8c8f2767bec8a25c03169534731cf99e9cbb5d",
+      "reused_existing_asset": false,
+      "pages": [
+        "catalog"
+      ],
+      "description": "Catalog mobile development phone icon"
+    },
+    "assets/platform/asset-35f90f2150ab7ea3.jpg": {
+      "width": 512,
+      "height": 279,
+      "format": "JPEG",
+      "pixel_sha256": "0a26a27a81600e198166d111f22a9cc3e8efb4d89e2447740586fac1eae848f9",
+      "encoded_sha256": "35f90f2150ab7ea3a45945cd67bf1a1a6a17ea47606777ebe7e302ad94ac9f8b",
+      "reused_existing_asset": false,
+      "pages": [
+        "catalog"
+      ],
+      "description": "Catalog Python analytics and machine learning thumbnail"
+    },
+    "assets/platform/asset-3c8689a31dd1a77d.png": {
+      "width": 160,
+      "height": 160,
+      "format": "PNG",
+      "pixel_sha256": "1c562ebc933ed05033876e76e4028a1ce6be04549155939f442e61d787c68a7b",
+      "encoded_sha256": "3c8689a31dd1a77d7ccf2f8421f32789614f73792e20ba8491b8e2e20b66b8d8",
+      "reused_existing_asset": false,
+      "pages": [
+        "catalog"
+      ],
+      "description": "Catalog machine learning brain icon"
+    },
+    "assets/platform/asset-606b4c3b18aed0cf.jpg": {
+      "width": 512,
+      "height": 279,
+      "format": "JPEG",
+      "pixel_sha256": "e407ca8e41306a119c35478f06be30203c0ed74b079c85137d519f7323029f25",
+      "encoded_sha256": "606b4c3b18aed0cf98ca73d6286a7edd2e1808f3d03cf247a638c4f994b9b3f6",
+      "reused_existing_asset": false,
+      "pages": [
+        "catalog"
+      ],
+      "description": "Catalog cloud architecture thumbnail"
+    },
+    "assets/platform/asset-5173aef52bf5fae9.png": {
+      "width": 160,
+      "height": 160,
+      "format": "PNG",
+      "pixel_sha256": "9eaf37710a8f9afb2707a0c939d208424118d1781bb7445fb125e37fa7985e6d",
+      "encoded_sha256": "5173aef52bf5fae991967052bb452a4ee680fc68c7ab68fbe5752dc0424dfc77",
+      "reused_existing_asset": false,
+      "pages": [
+        "catalog"
+      ],
+      "description": "Catalog cloud icon"
+    },
+    "assets/platform/asset-3839def590cff905.jpg": {
+      "width": 198,
+      "height": 108,
+      "format": "JPEG",
+      "pixel_sha256": "d5d547bfe7c9ed75e17be3e33ea4bb27c055e30a48b08faa29630565891e5970",
+      "encoded_sha256": "3839def590cff9057b332007d030e9aae1d1f7d292be6dc3bebee15f3f5f2bc2",
+      "reused_existing_asset": false,
+      "pages": [
+        "payment"
+      ],
+      "description": "Payment course thumbnail"
+    },
+    "assets/platform/asset-6567c6802470abb3.jpg": {
+      "width": 112,
+      "height": 112,
+      "format": "JPEG",
+      "pixel_sha256": "eb242936f01f44569e5cfec74cfc5836de9efbd1cf9b667dc8e94ad758cb4c5b",
+      "encoded_sha256": "6567c6802470abb3e0d24b7acd35b1f937f417e77fd559ce00b20de74f241f0b",
+      "reused_existing_asset": false,
+      "pages": [
+        "payment"
+      ],
+      "description": "Payment instant enrollment support illustration"
+    },
+    "assets/platform/asset-c401aa2af680a031.jpg": {
+      "width": 128,
+      "height": 128,
+      "format": "JPEG",
+      "pixel_sha256": "ee19db64d96b001d2dc3033d00963cc171a4c861d75c9ce8eebabad4434ea646",
+      "encoded_sha256": "c401aa2af680a03134bbc3d391f98653804093fb89fb50455c871b76aa8a55ca",
+      "reused_existing_asset": false,
+      "pages": [
+        "payment"
+      ],
+      "description": "Payment secure mobile payment illustration"
+    },
+    "assets/platform/asset-96325ca62212c08e.jpg": {
+      "width": 512,
+      "height": 279,
+      "format": "JPEG",
+      "pixel_sha256": "f3b12e7a6fda4d292d0cf433e39656474e588fd606e281dbe50e71db67615f58",
+      "encoded_sha256": "96325ca62212c08edae6a2d1ed34ac98d02c911ed61540e64ae3da3c29ecea81",
+      "reused_existing_asset": false,
+      "pages": [
+        "course"
+      ],
+      "description": "Course detail full-stack development hero"
+    },
+    "assets/platform/asset-a73036ff81334b33.jpg": {
+      "width": 512,
+      "height": 279,
+      "format": "JPEG",
+      "pixel_sha256": "c4df7e6d969a9279fbf687cb28502c7fd769cf0b7739f58e55be5f18d4e4384c",
+      "encoded_sha256": "a73036ff81334b33fee3c3edd94e3d5648a158d4fdb96ecc3537c0446a05d500",
+      "reused_existing_asset": false,
+      "pages": [
+        "course"
+      ],
+      "description": "Course project: fintech transaction dashboard"
+    },
+    "assets/platform/asset-ee498a29890aa872.jpg": {
+      "width": 512,
+      "height": 279,
+      "format": "JPEG",
+      "pixel_sha256": "c810ee6e4174a946df21aa8fae33162f19d34bb31af1269c8c54fe24c43ee84a",
+      "encoded_sha256": "ee498a29890aa87295f3eecc098f4ba32e0e70d638ffc3e8440728714508ac5a",
+      "reused_existing_asset": false,
+      "pages": [
+        "course"
+      ],
+      "description": "Course project: collaborative student portal"
+    },
+    "assets/platform/asset-2b8a5b74ef19eb7b.jpg": {
+      "width": 512,
+      "height": 279,
+      "format": "JPEG",
+      "pixel_sha256": "ca26a3df7d95e25379e3c1835da10848a0c7766388e465f0d629f83f9af061d3",
+      "encoded_sha256": "2b8a5b74ef19eb7b0cb49031158db10fff8a103bb307d6c31c47f1c752d1230b",
+      "reused_existing_asset": false,
+      "pages": [
+        "course"
+      ],
+      "description": "Course project: course commerce dashboard"
+    },
+    "assets/platform/asset-5288ab6c3f745dbb.jpg": {
+      "width": 512,
+      "height": 279,
+      "format": "JPEG",
+      "pixel_sha256": "de6bedde3d0d4c623ff76cb81af2b0e2ecac13286ac6eccba26d526e63629613",
+      "encoded_sha256": "5288ab6c3f745dbb4086bcfca9620c9b4c0e0e20373a9e1cec6c09225bc5b4e2",
+      "reused_existing_asset": false,
+      "pages": [
+        "course"
+      ],
+      "description": "Course project: cloud analytics engine"
+    },
+    "assets/platform/asset-f0f401954fcb09ce.jpg": {
+      "width": 338,
+      "height": 184,
+      "format": "JPEG",
+      "pixel_sha256": "892aeb1e879e04ac029ba3ca81bac895d50c4b09aee23398b1cf0293427cc232",
+      "encoded_sha256": "f0f401954fcb09ce37b918104b0e3923c522b7358a06a63a5046b67db1dd2a2e",
+      "reused_existing_asset": false,
+      "pages": [
+        "community"
+      ],
+      "description": "Community live-code instructor picture-in-picture"
+    }
+  },
+  "stats": {
+    "image_occurrences": 69,
+    "unique_decoded_images": 39,
+    "new_files": 34,
+    "reused_existing_files": 5
+  },
+  "notes": [
+    "Only embedded source media are stored here; whole-page design SVGs and reference renders remain private in ignored .local/platform-reference.",
+    "For exact crop placement, each page image records the SVG pattern transform and consuming shape bounds or direct use transform. Most wide photographs use center cover; avatars use square center crops.",
+    "Files retain their original encoded bytes except the five reused reference WebPs, whose decoded RGBA pixels exactly match the newly supplied source images."
+  ]
+}

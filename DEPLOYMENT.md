@@ -4,9 +4,12 @@ The owner approved public publication. GitHub Pages is enabled with **GitHub Act
 
 - Website: https://theingi221.github.io/burmese-learners/
 - Sign in: https://theingi221.github.io/burmese-learners/auth.html
+- Platform homepage: https://theingi221.github.io/burmese-learners/home.html
+- Course catalog: https://theingi221.github.io/burmese-learners/catalog.html
+- Community: https://theingi221.github.io/burmese-learners/community.html
 - ZIP download: https://github.com/theingi221/burmese-learners/raw/refs/heads/main/downloads/Burma-Learners.zip
 
-The first successful deployment is [workflow run 42353174450](https://github.com/theingi221/burmese-learners/actions/runs/42353174450), deploying website commit `0e7875234113e56f45a4a6c01253a5e5cd5a11ec`. The public site passed nine HTTPS content/asset checks and twenty browser smoke checks with TLS verification enabled. Splash, authentication demos, course filters, lessons, and desktop/mobile layouts were verified. Authentication and SMS remain device-only demonstrations.
+The first successful deployment is [workflow run 42353174450](https://github.com/theingi221/burmese-learners/actions/runs/42353174450), deploying website commit `0e7875234113e56f45a4a6c01253a5e5cd5a11ec`. Subsequent application pushes deploy updates to the same URL. The expanded site includes ten screens, shared English/Burmese and Light/Dark preferences, course navigation, lesson and assignment workspaces, demo enrollment and local community interactions. Authentication, SMS, payments and shared community delivery remain frontend demonstrations.
 
 ## Future updates
 
