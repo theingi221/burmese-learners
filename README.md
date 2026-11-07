@@ -2,6 +2,10 @@
 
 A responsive, self-contained website based on the supplied Burma Learners UI references. Plain HTML, CSS and JavaScript; Node.js 20+ runs the development server and static build. No dependency installation or credentials are needed.
 
+Live website: https://theingi221.github.io/burmese-learners/
+
+[Download the public website ZIP](https://github.com/theingi221/burmese-learners/raw/refs/heads/main/downloads/Burma-Learners.zip)
+
 ## Pages
 
 - `index.html`: the new Splash screen from `Burma Learners.zip`.
