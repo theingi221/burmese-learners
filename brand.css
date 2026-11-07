@@ -1,0 +1,191 @@
+/* Shared brand palette: the same solid and gradient in both appearances. */
+:root {
+  --brand-solid: #46a237;
+  --brand-end: #059669;
+  --brand-gradient: linear-gradient(110deg, #46a237 0%, #059669 100%);
+  --brand-on-fill: #071b10;
+  --brand-text: #2d6f23;
+  --brand-soft: #eef8ec;
+  --brand-line: #bddfb6;
+}
+
+html[data-theme="dark"] {
+  --brand-text: #a7dfa0;
+  --brand-soft: #172f1c;
+  --brand-line: #365c35;
+}
+
+html[data-theme] body[class] {
+  --green: var(--brand-solid);
+  --green-bright: var(--brand-end);
+  --green-strong: var(--brand-text);
+  --ui-green: var(--brand-solid);
+  --ui-green-dark: var(--brand-text);
+  --soft-green: var(--brand-soft);
+  --green-border: var(--brand-line);
+  --hub-green: var(--brand-text);
+  --design-primary: var(--brand-gradient);
+  --design-live: var(--brand-gradient);
+  --design-headline: var(--brand-gradient);
+}
+
+html[data-theme] :is(.payment-checkout, .confirmed-main) {
+  --green-strong: var(--brand-text);
+}
+
+/* Primary actions carry the gradient; routine controls use the solid fill. */
+html[data-theme] :is(
+  .button-green, .auth-submit, .catalog-qa,
+  .catalog-card-actions > a:last-child, .catalog-empty button,
+  .course-button:not(.course-button-secondary),
+  .assignment-submit, .payment-submit, .confirmed-button-green,
+  .p-button:not(.secondary, .p-secondary, .ghost),
+  .hub-button:not(.hub-button-white, .hub-button-soft, .hub-button-dark):not(.hub-mobile-bottom .hub-button)
+) {
+  background: var(--brand-gradient);
+  color: var(--brand-on-fill);
+  border-color: transparent;
+}
+
+html[data-theme] .home-page :is(.button-primary, .course-price .button),
+html[data-theme] .home-page #instructor .instructor-copy > .button,
+html[data-theme] .home-page #teach .teaching-cta .button-primary {
+  background: var(--brand-gradient);
+  color: var(--brand-on-fill);
+}
+
+/* Course categories and social destinations retain their own visual identity. */
+html[data-theme] .home-page .course-card-blue .course-price .button {
+  background: linear-gradient(90deg, #0284c7, #1d4ed8);
+  color: #fff;
+}
+html[data-theme] .home-page .course-card-amber .course-price .button {
+  background: linear-gradient(90deg, #b45309, #c2410c);
+  color: #fff;
+}
+
+html[data-theme] :is(
+  .shell-join, .catalog-search button,
+  .catalog-categories button[aria-pressed="true"],
+  .auth-methods button.is-active,
+  .lesson-small-button.is-green, .lesson-question-input button,
+  .hub-room-filters .is-active,
+  .course-module:not([data-locked="true"]) .course-module-status,
+  .catalog-play, .catalog-card-badge, .course-trailer-play,
+  .course-instructor-card-name > span,
+  .course-perk:nth-child(3) > span, .course-review-person > span:not([style]),
+  .hub-official-label, .hub-instructor,
+  .course-buy-community > span, .confirmed-seal, .confirmed-step-ribbon,
+  .payment-step, .payment-fastest, .payment-course-thumb span
+) {
+  background: var(--brand-solid);
+  color: var(--brand-on-fill);
+  border-color: var(--brand-solid);
+}
+
+html[data-theme] .home-page .course-filters .active {
+  background: var(--brand-solid);
+  color: var(--brand-on-fill);
+}
+
+html[data-theme] :is(.shell-nav > .is-current, .shell-tagline,
+  .auth-tab.is-active, .splash-subtitle, .lesson-tab[aria-selected="true"],
+  .lesson-row.is-active strong, .lesson-module.is-active strong,
+  .assignment-eyebrow > span:first-child, .assignment-rubric-item h4 > span:last-child,
+  .course-watch-free, .hub-event-card-footer button, .hub-question-footer button,
+  .hub-leaderboard > button) {
+  color: var(--brand-text);
+}
+
+html[data-theme] .shell-nav > .is-current::after,
+html[data-theme] .auth-tab.is-active::after,
+html[data-theme] .lesson-tab[aria-selected="true"]::after,
+html[data-theme] :is(.badge-dot, .nav-dot, .notification-dot, .catalog-dot, .hub-dot) {
+  background: var(--brand-solid);
+}
+
+html[data-theme] :is(.splash-copy h1 > span, .catalog-hero h1 em) {
+  color: var(--brand-solid);
+}
+
+html[data-theme] :is(.home-page .hero h1 > span, .course-hero-copy h1 em) {
+  background: var(--brand-gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+html[data-theme] .hub-hero h1 em {
+  color: var(--brand-solid);
+}
+
+html[data-theme] :is(.course-free-callout, .hub-challenge) {
+  background: var(--brand-gradient);
+  color: var(--brand-on-fill);
+}
+html[data-theme] .hub-challenge :is(h3, p, button, .hub-pill) {
+  color: var(--brand-on-fill);
+}
+html[data-theme] .course-free-callout p {
+  color: var(--brand-on-fill);
+}
+
+html[data-theme] .learning-badge {
+  background: var(--brand-soft);
+  border-color: var(--brand-line);
+  color: var(--brand-text);
+}
+html[data-theme] .learning-badge > span[lang] { color: var(--brand-text); }
+
+html[data-theme] :is(.hub-pill-soft, .hub-button-soft, .hub-leaderboard li b) {
+  background: var(--brand-soft);
+  color: var(--brand-text);
+}
+
+html[data-theme] .home-page .course-card:not(.course-card-blue, .course-card-amber) {
+  --design-course-gradient: var(--brand-gradient);
+}
+
+html[data-theme] :is(.catalog-instructor-role, .course-instructor-card-name p,
+  .course-instructor-badge, .course-trailer-badge) { color: #b5e4af; }
+html[data-theme] .catalog-instructor-stats > div:nth-child(2) strong {
+  color: var(--brand-solid);
+}
+html[data-theme] .catalog-card-play { color: var(--brand-end); }
+html[data-theme] .catalog-art-caption::after {
+  background: linear-gradient(90deg, #46a237 0%, #059669 33%, #7777 33%);
+}
+
+html[data-theme] :is(.p-progress > span, .lesson-progress i,
+  .lesson-progress-decoration i, .home-page .revenue-bar > span,
+  .home-page .video-progress span) {
+  background: var(--brand-gradient);
+}
+
+html[data-theme] :is(.splash-main, .catalog-hero, .course-hero),
+html[data-theme] .home-page .hero {
+  background:
+    radial-gradient(ellipse at 0% 0%, #46a23718, transparent 55%),
+    radial-gradient(ellipse at 100% 75%, #05966916, transparent 55%),
+    var(--page-bg);
+}
+
+html[data-theme] .confirmed-hero {
+  background:
+    radial-gradient(ellipse at 0% 0%, #46a23722, transparent 40%),
+    radial-gradient(ellipse at 100% 100%, #0596691c, transparent 40%),
+    var(--surface);
+}
+
+/* Keep a visible brand outline without changing control geometry. */
+html[data-theme] :is(button, a, input, select, textarea):focus-visible {
+  outline-color: var(--brand-solid);
+}
+html[data-theme] input[type="checkbox"] { accent-color: var(--brand-solid); }
+
+@media (forced-colors: active) {
+  html[data-theme] :is(.home-page .hero h1 > span, .course-hero-copy h1 em) {
+    background: none;
+    color: CanvasText;
+  }
+}
