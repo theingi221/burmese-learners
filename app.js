@@ -17,7 +17,10 @@
     };
 
     function read(key, fallback) {
-      try { return JSON.parse(localStorage.getItem(key)) ?? fallback; }
+      try {
+        const value = localStorage.getItem(key) ?? (key === 'blh-demo-profile' ? sessionStorage.getItem(key) : null);
+        return JSON.parse(value) ?? fallback;
+      }
       catch { return fallback; }
     }
 
@@ -354,7 +357,7 @@
           const clear = node('button', 'lesson-option', 'Remove this demo profile');
           clear.type = 'button';
           clear.addEventListener('click', () => {
-            try { localStorage.removeItem('blh-demo-profile'); }
+            try { localStorage.removeItem('blh-demo-profile'); sessionStorage.removeItem('blh-demo-profile'); }
             catch { notify('Browser storage is unavailable.'); return; }
             actions.portal();
             notify('Demo profile removed from this device.');

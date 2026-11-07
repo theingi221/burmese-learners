@@ -1,16 +1,16 @@
 # Public website deployment
 
-The static website is built and ready to deploy. Public publication has been requested by the owner, but no public deployment has yet been verified.
+The static website and download ZIP are built and ready. The owner has explicitly approved publishing both. The downloadable package is tracked at `downloads/Burma-Learners.zip`; it contains only the current public website, with `index.html` at its root.
 
 ## Prepared route: GitHub Pages
 
 The selected repository is `theingi221/burmese-learners`. The workflow in `.github/workflows/pages.yml` builds the site on pushes to `main`, publishes only `dist/`, and uses exact commit pins verified against the official GitHub Actions repositories. All browser URLs are relative, so the repository subpath is supported.
 
-Current prerequisite: the environment's outbound proxy denies `api.github.com` before an API response is received. Native HTTPS Git reads work; API authentication and administrative Pages permissions are not yet verified. `GH_TOKEN` is already present; no additional credential should be requested until the existing binding has been tested after connectivity is restored. Do not print or extract its value.
+Current prerequisite: network access is now applied and repository API reads succeed. A native Git dry-run push also succeeds. The Pages creation API returns `403 Resource not accessible by integration`: the existing integration does not have the additional Pages/administration permission needed to enable a new site.
 
-A native Git dry-run push was also tested without changing the remote. It returned `403 Permission denied`. The current Git connection cannot publish. This does not establish the permissions of the separate API credential, which still needs testing after the network setting is applied. The website and workflow are committed locally; no remote push or public Pages deployment has occurred.
+The repository owner can enable the site through **Repository Settings → Pages → Build and deployment → Source → GitHub Actions**. Then the prepared `pages.yml` workflow can be dispatched and its actual deployment URL verified. No new token value is needed in chat. Do not attempt to enable Pages using the Actions `GITHUB_TOKEN`: the official `configure-pages` action documents that initial enablement needs a different token with additional permissions.
 
-A network draft preserves prior custom destinations and adds `api.github.com` and `theingi221.github.io`. Saving that draft does not apply or publish it. Apply the network settings through the environment settings workflow before retrying the API operation. Do not route around the proxy denial.
+The active allowlist includes `api.github.com` and `theingi221.github.io`; no further network edit is currently needed for this deployment.
 
 Once API access works:
 
