@@ -4,6 +4,7 @@
   const bi = (en, my) => `<span data-en="${escape(en)}" data-my="${escape(my)}">${escape(t(en,my))}</span>`;
   const icon = id => `<svg aria-hidden="true"><use href="#${id}"/></svg>`;
   const rich = document.body.classList.contains('platform-page') || document.body.dataset.richFooter === 'true';
+  const authPage = location.pathname.endsWith('/auth.html');
   const communityPage = location.pathname.endsWith('/community.html');
   const icons = `<svg class="shell-icons" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><defs>
     <symbol id="ui-arrow" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6"/></symbol>
@@ -15,7 +16,8 @@
     <symbol id="ui-moon" viewBox="0 0 24 24"><path d="M21 13A9 9 0 0 1 11 3a9 9 0 1 0 10 10Z"/></symbol>
     <symbol id="ui-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4" ry="9"/><path d="M3 12h18"/></symbol>
   </defs></svg>`;
-  const logo = rich ? '<img class="platform-brand-image" src="assets/platform/asset-a2b49727ab1498ea.png" width="155" height="52" alt="Burma Learners Hub">' : '<img class="shell-logo" src="assets/burma-logo.webp" width="140" height="43" alt="Burma Learners Hub">';
+  const platformLogo = `<img class="platform-brand-image${authPage ? ' auth-dark-logo' : ''}" src="assets/platform/asset-a2b49727ab1498ea.png" width="155" height="52" alt="Burma Learners Hub">`;
+  const logo = rich ? platformLogo : `<img class="shell-logo${authPage ? ' auth-light-logo' : ''}" src="assets/burma-logo.webp" width="140" height="43" alt="Burma Learners Hub">${authPage ? platformLogo : ''}`;
   const header = document.getElementById('site-header');
   if (header) {
     header.className = 'shell-header';

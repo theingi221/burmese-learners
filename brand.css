@@ -9,6 +9,22 @@
   --brand-line: #bddfb6;
 }
 
+/* Authentication uses the same transparent white mark as other dark pages. */
+.auth-dark-logo { display: none; }
+html[data-theme="dark"] .auth-light-logo { display: none; }
+html[data-theme="dark"] .auth-dark-logo { display: block; }
+html[data-theme="dark"] .auth-dark-logo + .shell-tagline {
+  font-size: 9px;
+  line-height: 13px;
+  margin-top: 0;
+}
+@media (max-width: 680px) {
+  html[data-theme="dark"] .auth-dark-logo + .shell-tagline { font-size: 8px; line-height: 11px; }
+}
+@media (max-width: 365px) {
+  html[data-theme="dark"] .auth-dark-logo + .shell-tagline { font-size: 7px; line-height: 10px; }
+}
+
 html[data-theme="dark"] {
   --brand-text: #a7dfa0;
   --brand-soft: #172f1c;
