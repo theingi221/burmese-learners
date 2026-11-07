@@ -54,7 +54,7 @@ This is a frontend demonstration. Authentication, payment verification, video de
 
 ## Design and assets
 
-Brand colors are defined in `brand.css`: solid `#46A237` and the gradient `#46A237 → #059669`, shared by Light and Dark modes. Primary actions and progress use the gradient; navigation, filters and supporting controls use the solid. Dark foregrounds keep labels readable on both exact brand fills.
+The primary brand color is defined in `brand.css`: solid `#46A237`, shared by Light and Dark modes. Primary actions, navigation, filters and progress use this exact fill. Dark foregrounds and derived text shades keep labels readable. Every page header uses the same high-resolution transparent logo, with a white treatment in Dark Mode.
 
 The latest `Burma Learners Hub.zip` supplies English and Burmese homepage variants, course catalog, course details, lesson, assignment, payment, confirmation and community desktop frames. The site uses semantic HTML and CSS with extracted photographs and illustrations, rather than flattening a whole screen into an image. The homepage retains the supplied emerald gradients and dark instructor/footer sections in light mode. Mobile layouts adapt the desktop designs to readable stacked content.
 
