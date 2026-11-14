@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="320" viewBox="0 0 400 320" fill="none">
+  <defs>
+    <linearGradient id="bubble" x1="159" y1="76" x2="323" y2="231" gradientUnits="userSpaceOnUse"><stop stop-color="#80C56D"/><stop offset="1" stop-color="#46A237"/></linearGradient>
+    <linearGradient id="paper" x1="51" y1="131" x2="218" y2="247" gradientUnits="userSpaceOnUse"><stop stop-color="#FFF"/><stop offset="1" stop-color="#E3EDDA"/></linearGradient>
+    <filter id="shadow" x="-45%" y="-45%" width="190%" height="210%"><feDropShadow dx="0" dy="13" stdDeviation="12" flood-color="#1D381B" flood-opacity=".14"/></filter>
+  </defs>
+  <g transform="rotate(9 258 139)" filter="url(#shadow)">
+    <path d="M177 75H305C319 75 330 86 330 100V172C330 186 319 197 305 197H267L233 225V197H177C163 197 152 186 152 172V100C152 86 163 75 177 75Z" fill="#367D2C"/>
+    <path d="M172 67H300C314 67 325 78 325 92V164C325 178 314 189 300 189H262L228 217V189H172C158 189 147 178 147 164V92C147 78 158 67 172 67Z" fill="url(#bubble)"/>
+    <rect x="177" y="99" width="91" height="10" rx="5" fill="#F0F9E9"/>
+    <rect x="177" y="121" width="119" height="10" rx="5" fill="#D4EDC9"/>
+    <rect x="177" y="143" width="67" height="10" rx="5" fill="#D4EDC9"/>
+  </g>
+  <g transform="rotate(-10 139 192)" filter="url(#shadow)">
+    <path d="M64 138H185C199 138 210 149 210 163V226C210 240 199 251 185 251H127L96 276V251H64C50 251 39 240 39 226V163C39 149 50 138 64 138Z" fill="#BCD4AD"/>
+    <path d="M60 131H181C195 131 206 142 206 156V219C206 233 195 244 181 244H123L92 269V244H60C46 244 35 233 35 219V156C35 142 46 131 60 131Z" fill="url(#paper)" stroke="#D4E4CA" stroke-width="2"/>
+    <circle cx="81" cy="188" r="8" fill="#46A237"/><circle cx="121" cy="188" r="8" fill="#83B871"/><circle cx="161" cy="188" r="8" fill="#BDD6AF"/>
+  </g>
+  <g transform="rotate(8 290 238)" filter="url(#shadow)">
+    <rect x="255" y="203" width="70" height="70" rx="22" fill="#F7FBEF" stroke="#D7E6CC" stroke-width="2"/>
+    <path d="M273 237L286 249L309 222" stroke="#46A237" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

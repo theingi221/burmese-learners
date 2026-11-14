@@ -56,9 +56,19 @@ This is a frontend demonstration. Authentication, payment verification, video de
 
 The primary brand color is defined in `brand.css`: solid `#46A237`, shared by Light and Dark modes. Primary actions, navigation, filters and progress use this exact fill. Dark foregrounds and derived text shades keep labels readable. Every page header uses the same high-resolution transparent logo, with a white treatment in Dark Mode.
 
-The latest `Burma Learners Hub.zip` supplies English and Burmese homepage variants, course catalog, course details, lesson, assignment, payment, confirmation and community desktop frames. The site uses semantic HTML and CSS with extracted photographs and illustrations, rather than flattening a whole screen into an image. The homepage retains the supplied emerald gradients and dark instructor/footer sections in light mode. Mobile layouts adapt the desktop designs to readable stacked content.
+The site now uses one minimalist visual system: neutral ivory surfaces in Light Mode, charcoal green surfaces in Dark Mode, consistent typography, restrained borders and shadows, and solid brand-green actions. `minimal.css` defines shared tokens, navigation, footer and common panels. Page-specific refresh files supply layout without changing learning or demo enrollment behavior. Mobile course cards use horizontal thumbnails, wrapping titles and 44px actions; catalog filters collapse behind an accessible native disclosure.
 
-`assets/platform/` contains deduplicated media extracted from the latest supplied exports; `asset-manifest.json` records their provenance. The earlier `assets/burma-*.webp` files contain the supplied Splash logo and illustration. `assets/reference-*.webp` and small vector gradient backgrounds support the homepage.
+`assets/learning-3d.svg` and `assets/community-3d.svg` are original, transparent vector illustrations created for this refresh. They use simple isometric shapes and soft shadows and contain no language-specific text. The welcome, account and community views use these illustrations. `assets/platform/` contains deduplicated media extracted from the supplied exports; `asset-manifest.json` records their provenance. Original course and instructor photos remain local. Both header and footer use the high-resolution transparent logo.
+
+The shared stylesheet loads after `brand.css`, followed by the relevant page files:
+
+| File | Scope |
+| --- | --- |
+| `landing-refresh.css` | Welcome, Home and Sign In |
+| `course-cards.css` | Home and catalog course cards and mobile filter disclosure |
+| `community-refresh.css` | Community |
+| `classroom-refresh.css` | Lesson and Assignment |
+| `enrollment-refresh.css` | Demo checkout and confirmation |
 
 Inter and Noto Sans Myanmar are bundled locally with their SIL Open Font License notices. Runtime pages require no external image or font requests. Original private uploads and rendered design comparisons remain in ignored `.local/` and are excluded from the public site and download bundle.
 

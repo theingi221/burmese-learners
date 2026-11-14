@@ -12,6 +12,18 @@
   ];
   const categories = [ ['all','All Specializations','အထူးပြုဘာသာ အားလုံး'],['web','Web & App Dev','Web နှင့် App'],['design','Product & UI/UX','Product နှင့် UI/UX'],['ai','AI & Data Science','AI နှင့် Data Science'],['cloud','Cloud & DevOps','Cloud နှင့် DevOps'],['marketing','Growth & Marketing','Growth နှင့် Marketing'] ];
   const form = document.getElementById('catalog-filter-form');
+  const filterDisclosure = document.querySelector('.catalog-filter-disclosure');
+  const mobileFilters = window.matchMedia('(max-width: 680px)');
+  let mobileFiltersOpen = false;
+  let wasMobile = mobileFilters.matches;
+  filterDisclosure.open = !wasMobile;
+  const syncFilterDisclosure = () => {
+    if (wasMobile) mobileFiltersOpen = filterDisclosure.open;
+    wasMobile = mobileFilters.matches;
+    filterDisclosure.open = !wasMobile || mobileFiltersOpen;
+  };
+  filterDisclosure.addEventListener('toggle', () => { if (mobileFilters.matches) mobileFiltersOpen = filterDisclosure.open; });
+  mobileFilters.addEventListener('change', syncFilterDisclosure);
   const search = document.getElementById('catalog-search');
   const grid = document.getElementById('catalog-grid');
   let category = 'all';

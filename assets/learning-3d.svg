@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="480" viewBox="0 0 560 480" fill="none">
+  <defs>
+    <linearGradient id="screen" x1="234" y1="84" x2="441" y2="266" gradientUnits="userSpaceOnUse"><stop stop-color="#FCFEF9"/><stop offset="1" stop-color="#DFEDDA"/></linearGradient>
+    <linearGradient id="green" x1="237" y1="134" x2="414" y2="226" gradientUnits="userSpaceOnUse"><stop stop-color="#72BD61"/><stop offset="1" stop-color="#46A237"/></linearGradient>
+    <linearGradient id="page" x1="164" y1="232" x2="285" y2="365" gradientUnits="userSpaceOnUse"><stop stop-color="#FFF"/><stop offset="1" stop-color="#DCE8D4"/></linearGradient>
+    <linearGradient id="page2" x1="316" y1="217" x2="417" y2="340" gradientUnits="userSpaceOnUse"><stop stop-color="#FFF"/><stop offset="1" stop-color="#EDF3E5"/></linearGradient>
+    <linearGradient id="tile" x1="82" y1="177" x2="147" y2="256" gradientUnits="userSpaceOnUse"><stop stop-color="#B4DDA8"/><stop offset="1" stop-color="#6CB65A"/></linearGradient>
+    <filter id="shadow" x="0" y="0" width="560" height="480" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="13"/></filter>
+    <filter id="cardShadow" x="-40%" y="-40%" width="180%" height="200%"><feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#172B16" flood-opacity=".13"/></filter>
+  </defs>
+  <ellipse cx="286" cy="405" rx="173" ry="19" fill="#203B1A" opacity=".11" filter="url(#shadow)"/>
+  <g transform="rotate(-9 337 174)" filter="url(#cardShadow)">
+    <rect x="230" y="85" width="232" height="173" rx="23" fill="#6CA85E"/>
+    <rect x="224" y="77" width="232" height="173" rx="23" fill="url(#screen)" stroke="#C5DABB" stroke-width="2"/>
+    <path d="M224 113H456" stroke="#D5E3CD" stroke-width="2"/>
+    <circle cx="246" cy="96" r="4" fill="#46A237"/><circle cx="261" cy="96" r="4" fill="#B5CAA9"/><circle cx="276" cy="96" r="4" fill="#CEDCC6"/>
+    <rect x="244" y="130" width="136" height="98" rx="13" fill="url(#green)"/>
+    <circle cx="312" cy="179" r="23" fill="#F6FBEF"/>
+    <path d="M306 167L323 179L306 191V167Z" fill="#398B2D"/>
+    <rect x="395" y="139" width="38" height="7" rx="3.5" fill="#83AE75"/>
+    <rect x="395" y="156" width="28" height="7" rx="3.5" fill="#C1D4B6"/>
+    <rect x="395" y="185" width="38" height="35" rx="9" fill="#E0EBCF"/>
+    <path d="M405 203L412 209L423 196" stroke="#46A237" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g filter="url(#cardShadow)">
+    <path d="M76 205L124 178L169 205L122 234L76 205Z" fill="#CAE5BE"/>
+    <path d="M76 205V253L122 281V234L76 205Z" fill="url(#tile)"/>
+    <path d="M122 234L169 205V253L122 281V234Z" fill="#46A237"/>
+    <path d="M97 227L108 233M97 240L108 246" stroke="#F2F9EB" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <path d="M109 304L267 373L464 270V293L267 399L109 327V304Z" fill="#2D7427"/>
+  <path d="M112 300L267 366L460 264L458 283L267 384L112 319V300Z" fill="#DCE9D0"/>
+  <path d="M109 304L267 373L464 270L306 203L109 304Z" fill="#46A237"/>
+  <path d="M120 293L242 227C257 231 268 244 279 270L268 359C220 326 172 308 120 293Z" fill="url(#page)" stroke="#D2E1C7" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M279 270C305 237 338 213 369 210L450 270C392 278 328 310 268 359L279 270Z" fill="url(#page2)" stroke="#D2E1C7" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M279 271L269 357" stroke="#AFC8A1" stroke-width="3" stroke-linecap="round"/>
+  <path d="M155 289C189 297 220 312 245 328M173 277C202 284 227 297 248 311M192 266C214 273 233 282 250 294" stroke="#B5C9A7" stroke-width="4" stroke-linecap="round"/>
+  <path d="M309 287C335 266 361 253 384 250M304 305C339 280 373 264 406 260M300 324C343 294 385 277 425 273" stroke="#BCD0AF" stroke-width="4" stroke-linecap="round"/>
+  <path d="M268 359V371" stroke="#1F5D20" stroke-width="3" stroke-linecap="round"/>
+  <g transform="rotate(8 423 338)" filter="url(#cardShadow)">
+    <rect x="394" y="315" width="59" height="59" rx="18" fill="#F8FBEF" stroke="#D7E7CB" stroke-width="2"/>
+    <path d="M409 344L420 354L439 332" stroke="#46A237" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
